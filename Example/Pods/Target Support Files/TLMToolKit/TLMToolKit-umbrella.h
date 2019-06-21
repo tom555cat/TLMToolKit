@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TLMPerformanceLogger.h"
 
 FOUNDATION_EXPORT double TLMToolKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TLMToolKitVersionString[];

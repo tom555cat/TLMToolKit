@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		669374C4F494224D5B0B18CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6D17B1FE3376D86B30F4E2BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		669374C4F494224D5B0B18CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D17B1FE3376D86B30F4E2BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3AE9AA089202213AE1D4B5 /* Pods-TLMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Tests/Pods-TLMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E7E675EACB1BDFB912B1B9 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; };
+		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				327C8708993DAC006ABDC127 /* Pods-TLMToolKit_Tests.debug.xcconfig */,
 				7E3AE9AA089202213AE1D4B5 /* Pods-TLMToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "tongleiming1989@sina.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NE8VK2242L;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +500,7 @@
 			baseConfigurationReference = 257548ED211C1115B3105BF0 /* Pods-TLMToolKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NE8VK2242L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLMToolKit/TLMToolKit-Prefix.pch";
 				INFOPLIST_FILE = "TLMToolKit/TLMToolKit-Info.plist";
@@ -513,6 +516,7 @@
 			baseConfigurationReference = E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NE8VK2242L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLMToolKit/TLMToolKit-Prefix.pch";
 				INFOPLIST_FILE = "TLMToolKit/TLMToolKit-Info.plist";
