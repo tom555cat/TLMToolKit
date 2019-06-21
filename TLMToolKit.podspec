@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tongleiming1989@sina.com/TLMToolKit'
+  s.homepage         = 'https://github.com/tom555cat/TLMToolKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tongleiming1989@sina.com' => 'tongleiming@daling.com' }
-  s.source           = { :git => 'https://github.com/tongleiming1989@sina.com/TLMToolKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tom555cat/TLMToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

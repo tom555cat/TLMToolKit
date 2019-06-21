@@ -1,0 +1,6 @@
+framework module Pods_TLMToolKit_Tests {
+  umbrella header "Pods-TLMToolKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

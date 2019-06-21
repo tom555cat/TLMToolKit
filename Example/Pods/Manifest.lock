@@ -1,0 +1,16 @@
+PODS:
+  - TLMToolKit (0.1.0)
+
+DEPENDENCIES:
+  - TLMToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  TLMToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TLMToolKit: 9dc857cc313e2d2fdda161e491edde000533a4a5
+
+PODFILE CHECKSUM: 24d2789774b4e3c6a34e2d261ae2561241ace416
+
+COCOAPODS: 1.6.1
