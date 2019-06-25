@@ -68,6 +68,7 @@
 		88E7E675EACB1BDFB912B1B9 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E152E5822C0F55A00347AAC /* TLMLoadObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMLoadObj.h; sourceTree = "<group>"; };
 		8E152E5922C0F55A00347AAC /* TLMLoadObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMLoadObj.m; sourceTree = "<group>"; };
+		8E152F5E22C23A6A00347AAC /* TLMToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TLMToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +113,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				8E152F5E22C23A6A00347AAC /* TLMToolKit.framework */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TLMToolKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -510,6 +512,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLMToolKit/TLMToolKit-Prefix.pch";
 				INFOPLIST_FILE = "TLMToolKit/TLMToolKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,6 +529,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TLMToolKit/TLMToolKit-Prefix.pch";
 				INFOPLIST_FILE = "TLMToolKit/TLMToolKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

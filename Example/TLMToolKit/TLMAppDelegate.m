@@ -22,6 +22,8 @@ extern char * LEVEL_C;
 //    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_B"];
 //    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_C"];
     
+    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_A"];
+    
     return YES;
 }
 

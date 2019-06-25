@@ -1,5 +1,11 @@
 PODS:
-  - TLMToolKit (0.1.0)
+  - TLMToolKit (0.1.0):
+    - TLMToolKit/TLMLogger (= 0.1.0)
+    - TLMToolKit/TLMNetwork (= 0.1.0)
+    - TLMToolKit/TLMRegisterInitFunc (= 0.1.0)
+  - TLMToolKit/TLMLogger (0.1.0)
+  - TLMToolKit/TLMNetwork (0.1.0)
+  - TLMToolKit/TLMRegisterInitFunc (0.1.0)
 
 DEPENDENCIES:
   - TLMToolKit (from `../`)
@@ -9,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TLMToolKit: 12948c30aef0e0ab2136d03a16b63b2a7396c18c
+  TLMToolKit: 92f94d15362f55aeae4163a8df114651ceff3199
 
 PODFILE CHECKSUM: 24d2789774b4e3c6a34e2d261ae2561241ace416
 

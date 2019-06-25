@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D9CDF18BF89E02A39C85EEFDF880A8 /* XCHostUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FE83DC692106264153B028A86D741F /* XCHostUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14BECD773C4CF02E964EED88BEC52E67 /* XCModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D29C07DB02C44B65A74232C6FF1B85B4 /* XCModuleManager.m */; };
+		03A53CD6595714378B069C0AFE02E10D /* TLMToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04025D364D5838BF883B9B4B9502F416 /* TLMToolKit-dummy.m */; };
+		23B3F0D8267D1CB20F68338F8ABD859B /* NSString+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCD02E5D419FE7814791F41092B18AA /* NSString+addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D6BFE11CB9505CB6E906CD54C45A260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		41D53F8B0E25E2B0E8918E903AE0B90E /* TLMPerformanceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2341487307DF3A0A9C75BD09DB2B1AD7 /* TLMPerformanceLogger.m */; };
-		422163967EBA1E58801AA5297682C157 /* TLMPerformanceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1A6BE070EF315F8E476B20120FD660 /* TLMPerformanceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43EFD14225D0ABD1AB586F973EF9D567 /* Pods-TLMToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AE070346ABD0A244D0625AC2B596FD /* Pods-TLMToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BFC675563B461B4805A2C0E8AFD65C1 /* NSString+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 772526D1770C876D9EE1985B2C71657A /* NSString+addition.m */; };
-		4CA109055ECFBC11D3B5C8B55EA6D8F0 /* NSString+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0C32A19307D17D6CFEA565E82FB47A /* NSString+addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		532FB59FA7CABE3D34A9653D12131624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6168D9CC9DF6C1144C30FB17557CEC8F /* XCHostUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EE530CF6490149B0916C6ABB1EC2CF /* XCHostUtil.m */; };
+		53D026DB35183E904909953CD10BA2E1 /* TLMPerformanceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BD261669FEEB6402828E3689E5258474 /* TLMPerformanceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70114D06D60D880C0FB2940BA9BE44BA /* XCModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8092351E366EB75AC55C94A4D0A61913 /* XCModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BC7FD6B2451B56C27A370B2F8E633D /* Pods-TLMToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A67F1F42575E42FC10E1BD4E5C96262 /* Pods-TLMToolKit_Tests-dummy.m */; };
+		8FFB08EAC547965868CE2E2666E7135D /* NSString+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B0970AAFFCA2A232EEEFB0742303A /* NSString+addition.m */; };
+		902A2F9A21AD277639E7833B457CE586 /* TLMPerformanceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1C03DB7299E300C0E1D9731931B8C /* TLMPerformanceLogger.m */; };
 		96DE68B3D86CE43B93712FA38BCEE0B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9EEC02DD3807886A025D0A9566EEEB4E /* TLMToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 611321E83183B1D2894BF9E5E62B5042 /* TLMToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A21B9207833B50442E57816BAE723323 /* Pods-TLMToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D360FC9E3504913A7F7EA34DC7028F6 /* Pods-TLMToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF3AFA0E4139C5034DBE3AC37703D48 /* XCDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5307A20D3E673974E6C3F41604A42776 /* XCDynamicLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6921DF5B3580BEE6DD0145F49CAEC83 /* XCModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B036404C28BBCFF9FE41158A9E358881 /* XCModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6A7E4C74DEE95CD4E91E15A8E9C5871 /* XCDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D06F7EE7F82A8C567D217B5D41AB2A /* XCDynamicLoader.m */; };
-		BF05C744B1CF7D31B2F7970C593E1913 /* TLMToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B3FF622B612736E1053EA67EFA2D9 /* TLMToolKit-dummy.m */; };
-		D4C3ACB2C5FF607DD3A8933669F65499 /* TLMToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85F4CC30F575A804D88CD68DA1BAE8E /* TLMToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84ACA14E9F3FCBEF2369C4EDAB4CEBF /* XCHostUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A96069F3E911152DE4B7CF01990AA1E /* XCHostUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12A16BF583A51CF706C4D957ACABE9E /* XCHostUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E58DDFB80CBC7E2FFF94C8BD9EE0D /* XCHostUtil.m */; };
+		C280EF6CECDFCFFDD1F4F01B2B3D1DF8 /* XCDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1643F82BCC949FD1B1D532E0066C11 /* XCDynamicLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB126A66DC73FB2F2A55CFE6C3C83F86 /* Pods-TLMToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572A0D8A6A41D6A7710D22312DBB7114 /* Pods-TLMToolKit_Example-dummy.m */; };
+		F3EAC9C7B548FE7949007F527EA122DC /* XCDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B2E84E9B16D701D3C2B382F93C8D3 /* XCDynamicLoader.m */; };
+		F7EEAE54D26D3D420E6A8F3C5F55F3A6 /* XCModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66313494AE9B7C89D0074D6AA45F87A6 /* XCModuleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,47 +46,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044C28216C38B93DED8855FA0A5FA92C /* TLMToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-prefix.pch"; sourceTree = "<group>"; };
-		0A9C5E640C3FAB54DDE9FBB6C1833924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		00C6A4B3040487F50EF43E093179DCE2 /* TLMToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLMToolKit.modulemap; sourceTree = "<group>"; };
+		04025D364D5838BF883B9B4B9502F416 /* TLMToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMToolKit-dummy.m"; sourceTree = "<group>"; };
+		061E58DDFB80CBC7E2FFF94C8BD9EE0D /* XCHostUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCHostUtil.m; sourceTree = "<group>"; };
+		0F3B0970AAFFCA2A232EEEFB0742303A /* NSString+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+addition.m"; sourceTree = "<group>"; };
+		0F4660DAFFC86A1ACCD03F1F962F3FA9 /* TLMToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMToolKit.xcconfig; sourceTree = "<group>"; };
 		17E72FEA070F53D2BFC9D99B1111A3AD /* Pods-TLMToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18A456B0588C79C1866052B5275CC3C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D360FC9E3504913A7F7EA34DC7028F6 /* Pods-TLMToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLMToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		1F4B3FF622B612736E1053EA67EFA2D9 /* TLMToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMToolKit-dummy.m"; sourceTree = "<group>"; };
-		2341487307DF3A0A9C75BD09DB2B1AD7 /* TLMPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLMPerformanceLogger.m; path = TLMToolKit/Classes/TLMPerformanceLogger.m; sourceTree = "<group>"; };
 		25AE070346ABD0A244D0625AC2B596FD /* Pods-TLMToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLMToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		333B06A6575042A1FF0209FD9562EB2C /* TLMToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMToolKit.xcconfig; sourceTree = "<group>"; };
+		2A96069F3E911152DE4B7CF01990AA1E /* XCHostUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCHostUtil.h; sourceTree = "<group>"; };
+		328CE3A4BDD186CC4368448285132469 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3608CCC1A45B5078E09F9F64DE2E98F2 /* Pods-TLMToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36FE83DC692106264153B028A86D741F /* XCHostUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCHostUtil.h; path = TLMToolKit/Classes/XCHostUtil.h; sourceTree = "<group>"; };
-		3F6E5514CAB418978D7EA75EFC82BB10 /* TLMToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLMToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E5514CAB418978D7EA75EFC82BB10 /* TLMToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLMToolKit.framework; path = TLMToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CC6575DEA3132195D106673C8FEF94 /* Pods-TLMToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D3512A4D9B5B698CE60E28E8E6B71A3 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCD02E5D419FE7814791F41092B18AA /* NSString+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+addition.h"; sourceTree = "<group>"; };
+		4D3512A4D9B5B698CE60E28E8E6B71A3 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLMToolKit_Tests.framework; path = "Pods-TLMToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5395D511467664D002FDBBCAD8962 /* Pods-TLMToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Example-Info.plist"; sourceTree = "<group>"; };
-		5307A20D3E673974E6C3F41604A42776 /* XCDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDynamicLoader.h; path = TLMToolKit/Classes/XCDynamicLoader.h; sourceTree = "<group>"; };
 		572A0D8A6A41D6A7710D22312DBB7114 /* Pods-TLMToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		5CC42B732BD30ED52837E5A8113F9028 /* Pods-TLMToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		611321E83183B1D2894BF9E5E62B5042 /* TLMToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-umbrella.h"; sourceTree = "<group>"; };
+		66313494AE9B7C89D0074D6AA45F87A6 /* XCModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCModuleManager.m; sourceTree = "<group>"; };
 		69BA05B1EE68F8716B3FFB1D7D18BC3B /* Pods-TLMToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLMToolKit_Tests.modulemap"; sourceTree = "<group>"; };
-		6A0C32A19307D17D6CFEA565E82FB47A /* NSString+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+addition.h"; path = "TLMToolKit/Classes/NSString+addition.h"; sourceTree = "<group>"; };
-		6B1A6BE070EF315F8E476B20120FD660 /* TLMPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLMPerformanceLogger.h; path = TLMToolKit/Classes/TLMPerformanceLogger.h; sourceTree = "<group>"; };
-		772526D1770C876D9EE1985B2C71657A /* NSString+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+addition.m"; path = "TLMToolKit/Classes/NSString+addition.m"; sourceTree = "<group>"; };
+		6E1643F82BCC949FD1B1D532E0066C11 /* XCDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCDynamicLoader.h; sourceTree = "<group>"; };
+		6F56E4A42AF6902B94EB60672D369791 /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74F08A17A325BA785E1D1514A2CEF242 /* TLMToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-prefix.pch"; sourceTree = "<group>"; };
 		7A67F1F42575E42FC10E1BD4E5C96262 /* Pods-TLMToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8F6FFF3FCF986A65A6DAD42AC1F85E7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8092351E366EB75AC55C94A4D0A61913 /* XCModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCModuleManager.h; sourceTree = "<group>"; };
 		97E0C7E9AB651C629CEE6222D01F3ABC /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A26F515545A7520E1E6AEC9D26510C79 /* Pods_TLMToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B036404C28BBCFF9FE41158A9E358881 /* XCModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCModuleManager.h; path = TLMToolKit/Classes/XCModuleManager.h; sourceTree = "<group>"; };
+		9B4B2E84E9B16D701D3C2B382F93C8D3 /* XCDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCDynamicLoader.m; sourceTree = "<group>"; };
+		9D45423EDA16A2A0DB19945B9CD2FEEA /* TLMToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLMToolKit-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26F515545A7520E1E6AEC9D26510C79 /* Pods_TLMToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLMToolKit_Example.framework; path = "Pods-TLMToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD261669FEEB6402828E3689E5258474 /* TLMPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLMPerformanceLogger.h; sourceTree = "<group>"; };
 		C4BE78F15DBDA8E16470E2931BCF0DA1 /* Pods-TLMToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5C2500AD5E7E836B91B74FAED8FCDFF /* Pods-TLMToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D29C07DB02C44B65A74232C6FF1B85B4 /* XCModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCModuleManager.m; path = TLMToolKit/Classes/XCModuleManager.m; sourceTree = "<group>"; };
 		D4B91A5CA859F29A842F76EE9C97BE25 /* Pods-TLMToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLMToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D7DA75F9562474EF9857E2EB1D588ADF /* TLMToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLMToolKit-Info.plist"; sourceTree = "<group>"; };
-		D85F4CC30F575A804D88CD68DA1BAE8E /* TLMToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-umbrella.h"; sourceTree = "<group>"; };
-		DC9BF052E71133F18B2A255F7C648BB6 /* TLMToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLMToolKit.modulemap; sourceTree = "<group>"; };
-		DF9905D962819DFFEBF66654A55A1DC5 /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDC1C03DB7299E300C0E1D9731931B8C /* TLMPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TLMPerformanceLogger.m; sourceTree = "<group>"; };
 		E07E04CE1910E8EB8F6B9795DF222496 /* Pods-TLMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7F43BC680156290667C02CF7AFF79C6 /* Pods-TLMToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		ED21C43F30165ED77FDA7D024D68A653 /* Pods-TLMToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLMToolKit_Example.modulemap"; sourceTree = "<group>"; };
-		F3D06F7EE7F82A8C567D217B5D41AB2A /* XCDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDynamicLoader.m; path = TLMToolKit/Classes/XCDynamicLoader.m; sourceTree = "<group>"; };
-		F9EE530CF6490149B0916C6ABB1EC2CF /* XCHostUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCHostUtil.m; path = TLMToolKit/Classes/XCHostUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,24 +117,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		346A2E0F2AA4A2D5540434F7420F748D /* TLMToolKit */ = {
+		0530248846478916F185E6A4CCFEBCF3 /* TLMToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				6A0C32A19307D17D6CFEA565E82FB47A /* NSString+addition.h */,
-				772526D1770C876D9EE1985B2C71657A /* NSString+addition.m */,
-				6B1A6BE070EF315F8E476B20120FD660 /* TLMPerformanceLogger.h */,
-				2341487307DF3A0A9C75BD09DB2B1AD7 /* TLMPerformanceLogger.m */,
-				5307A20D3E673974E6C3F41604A42776 /* XCDynamicLoader.h */,
-				F3D06F7EE7F82A8C567D217B5D41AB2A /* XCDynamicLoader.m */,
-				36FE83DC692106264153B028A86D741F /* XCHostUtil.h */,
-				F9EE530CF6490149B0916C6ABB1EC2CF /* XCHostUtil.m */,
-				B036404C28BBCFF9FE41158A9E358881 /* XCModuleManager.h */,
-				D29C07DB02C44B65A74232C6FF1B85B4 /* XCModuleManager.m */,
-				64A32E4E299E1BDD06E5BB521EC6D7BD /* Pod */,
-				5CD142FDC1FC6676A47655BCF144BE96 /* Support Files */,
+				AC44E20D3D724F70DC98A136E7C6D21E /* Pod */,
+				2F6E2CE248CC794ADA30C272C9B36B87 /* Support Files */,
+				38AE99C5068E64F0F01E210786F07D62 /* TLMLogger */,
+				29386A50B24CE9C2AE810FE395576C2A /* TLMNetwork */,
+				F45FDE166F5CB61FBF9E437A3995418C /* TLMRegisterInitFunc */,
 			);
 			name = TLMToolKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		29386A50B24CE9C2AE810FE395576C2A /* TLMNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4BCD02E5D419FE7814791F41092B18AA /* NSString+addition.h */,
+				0F3B0970AAFFCA2A232EEEFB0742303A /* NSString+addition.m */,
+				2A96069F3E911152DE4B7CF01990AA1E /* XCHostUtil.h */,
+				061E58DDFB80CBC7E2FFF94C8BD9EE0D /* XCHostUtil.m */,
+			);
+			name = TLMNetwork;
+			path = TLMToolKit/TLMNetwork;
+			sourceTree = "<group>";
+		};
+		2F6E2CE248CC794ADA30C272C9B36B87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C6A4B3040487F50EF43E093179DCE2 /* TLMToolKit.modulemap */,
+				0F4660DAFFC86A1ACCD03F1F962F3FA9 /* TLMToolKit.xcconfig */,
+				04025D364D5838BF883B9B4B9502F416 /* TLMToolKit-dummy.m */,
+				9D45423EDA16A2A0DB19945B9CD2FEEA /* TLMToolKit-Info.plist */,
+				74F08A17A325BA785E1D1514A2CEF242 /* TLMToolKit-prefix.pch */,
+				611321E83183B1D2894BF9E5E62B5042 /* TLMToolKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLMToolKit";
+			sourceTree = "<group>";
+		};
+		38AE99C5068E64F0F01E210786F07D62 /* TLMLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BD261669FEEB6402828E3689E5258474 /* TLMPerformanceLogger.h */,
+				DDC1C03DB7299E300C0E1D9731931B8C /* TLMPerformanceLogger.m */,
+			);
+			name = TLMLogger;
+			path = TLMToolKit/TLMLogger;
 			sourceTree = "<group>";
 		};
 		4900DC86A70C0A78868D8A930059B3D3 /* Products */ = {
@@ -147,34 +176,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CD142FDC1FC6676A47655BCF144BE96 /* Support Files */ = {
+		98B060D26A681450F3B04503C3E1F967 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC9BF052E71133F18B2A255F7C648BB6 /* TLMToolKit.modulemap */,
-				333B06A6575042A1FF0209FD9562EB2C /* TLMToolKit.xcconfig */,
-				1F4B3FF622B612736E1053EA67EFA2D9 /* TLMToolKit-dummy.m */,
-				D7DA75F9562474EF9857E2EB1D588ADF /* TLMToolKit-Info.plist */,
-				044C28216C38B93DED8855FA0A5FA92C /* TLMToolKit-prefix.pch */,
-				D85F4CC30F575A804D88CD68DA1BAE8E /* TLMToolKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLMToolKit";
-			sourceTree = "<group>";
-		};
-		64A32E4E299E1BDD06E5BB521EC6D7BD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0A9C5E640C3FAB54DDE9FBB6C1833924 /* LICENSE */,
-				8F6FFF3FCF986A65A6DAD42AC1F85E7D /* README.md */,
-				DF9905D962819DFFEBF66654A55A1DC5 /* TLMToolKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7C02653E031645FA4E230B6290193346 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				346A2E0F2AA4A2D5540434F7420F748D /* TLMToolKit */,
+				0530248846478916F185E6A4CCFEBCF3 /* TLMToolKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -185,6 +190,16 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AC44E20D3D724F70DC98A136E7C6D21E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				328CE3A4BDD186CC4368448285132469 /* LICENSE */,
+				18A456B0588C79C1866052B5275CC3C9 /* README.md */,
+				6F56E4A42AF6902B94EB60672D369791 /* TLMToolKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		ACFE7802EB33378801BC1A93DAAF7A0A /* Pods-TLMToolKit_Tests */ = {
@@ -224,7 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7C02653E031645FA4E230B6290193346 /* Development Pods */,
+				98B060D26A681450F3B04503C3E1F967 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4900DC86A70C0A78868D8A930059B3D3 /* Products */,
 				DEC522CE0DEFD9E2CCB4806674524DA4 /* Targets Support Files */,
@@ -248,22 +263,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F45FDE166F5CB61FBF9E437A3995418C /* TLMRegisterInitFunc */ = {
+			isa = PBXGroup;
+			children = (
+				6E1643F82BCC949FD1B1D532E0066C11 /* XCDynamicLoader.h */,
+				9B4B2E84E9B16D701D3C2B382F93C8D3 /* XCDynamicLoader.m */,
+				8092351E366EB75AC55C94A4D0A61913 /* XCModuleManager.h */,
+				66313494AE9B7C89D0074D6AA45F87A6 /* XCModuleManager.m */,
+			);
+			name = TLMRegisterInitFunc;
+			path = TLMToolKit/TLMRegisterInitFunc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4AEECFA302AC0BA44B09F54B2386EC10 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CA109055ECFBC11D3B5C8B55EA6D8F0 /* NSString+addition.h in Headers */,
-				422163967EBA1E58801AA5297682C157 /* TLMPerformanceLogger.h in Headers */,
-				D4C3ACB2C5FF607DD3A8933669F65499 /* TLMToolKit-umbrella.h in Headers */,
-				AFF3AFA0E4139C5034DBE3AC37703D48 /* XCDynamicLoader.h in Headers */,
-				01D9CDF18BF89E02A39C85EEFDF880A8 /* XCHostUtil.h in Headers */,
-				B6921DF5B3580BEE6DD0145F49CAEC83 /* XCModuleManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9D63848B4D204795A45E8812769FCDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +294,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD34E7C8AB656584075FC4B3B806D6F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B3F0D8267D1CB20F68338F8ABD859B /* NSString+addition.h in Headers */,
+				53D026DB35183E904909953CD10BA2E1 /* TLMPerformanceLogger.h in Headers */,
+				9EEC02DD3807886A025D0A9566EEEB4E /* TLMToolKit-umbrella.h in Headers */,
+				C280EF6CECDFCFFDD1F4F01B2B3D1DF8 /* XCDynamicLoader.h in Headers */,
+				B84ACA14E9F3FCBEF2369C4EDAB4CEBF /* XCHostUtil.h in Headers */,
+				70114D06D60D880C0FB2940BA9BE44BA /* XCModuleManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -287,8 +314,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1801CFED15F6D580076082BAC4021646 /* Build configuration list for PBXNativeTarget "TLMToolKit" */;
 			buildPhases = (
-				4AEECFA302AC0BA44B09F54B2386EC10 /* Headers */,
-				CA10C01BC0FD966E869ABB86798A40FD /* Sources */,
+				DD34E7C8AB656584075FC4B3B806D6F1 /* Headers */,
+				AD56C2018546E5B89B2194968C91DF6B /* Sources */,
 				8BB801710099B5F184F6C98F53A3CE46 /* Frameworks */,
 				1D97E0F5ACB741282EACA88DE25B51F5 /* Resources */,
 			);
@@ -392,24 +419,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AD56C2018546E5B89B2194968C91DF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFB08EAC547965868CE2E2666E7135D /* NSString+addition.m in Sources */,
+				902A2F9A21AD277639E7833B457CE586 /* TLMPerformanceLogger.m in Sources */,
+				03A53CD6595714378B069C0AFE02E10D /* TLMToolKit-dummy.m in Sources */,
+				F3EAC9C7B548FE7949007F527EA122DC /* XCDynamicLoader.m in Sources */,
+				C12A16BF583A51CF706C4D957ACABE9E /* XCHostUtil.m in Sources */,
+				F7EEAE54D26D3D420E6A8F3C5F55F3A6 /* XCModuleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C20F14F5447EC7F4163299DB143EAD06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB126A66DC73FB2F2A55CFE6C3C83F86 /* Pods-TLMToolKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA10C01BC0FD966E869ABB86798A40FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BFC675563B461B4805A2C0E8AFD65C1 /* NSString+addition.m in Sources */,
-				41D53F8B0E25E2B0E8918E903AE0B90E /* TLMPerformanceLogger.m in Sources */,
-				BF05C744B1CF7D31B2F7970C593E1913 /* TLMToolKit-dummy.m in Sources */,
-				B6A7E4C74DEE95CD4E91E15A8E9C5871 /* XCDynamicLoader.m in Sources */,
-				6168D9CC9DF6C1144C30FB17557CEC8F /* XCHostUtil.m in Sources */,
-				14BECD773C4CF02E964EED88BEC52E67 /* XCModuleManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +519,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -500,7 +528,7 @@
 		};
 		210F1183EEB6B222593B3FABE0EAC85D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 333B06A6575042A1FF0209FD9562EB2C /* TLMToolKit.xcconfig */;
+			baseConfigurationReference = 0F4660DAFFC86A1ACCD03F1F962F3FA9 /* TLMToolKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,7 +757,7 @@
 		};
 		F9CFD00544CEBE1451B2982311D4D9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 333B06A6575042A1FF0209FD9562EB2C /* TLMToolKit.xcconfig */;
+			baseConfigurationReference = 0F4660DAFFC86A1ACCD03F1F962F3FA9 /* TLMToolKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -10,10 +10,15 @@
 #endif
 #endif
 
-#import "NSString+addition.h"
 #import "TLMPerformanceLogger.h"
-#import "XCDynamicLoader.h"
+#import "NSString+addition.h"
 #import "XCHostUtil.h"
+#import "XCDynamicLoader.h"
+#import "XCModuleManager.h"
+#import "TLMPerformanceLogger.h"
+#import "NSString+addition.h"
+#import "XCHostUtil.h"
+#import "XCDynamicLoader.h"
 #import "XCModuleManager.h"
 
 FOUNDATION_EXPORT double TLMToolKitVersionNumber;

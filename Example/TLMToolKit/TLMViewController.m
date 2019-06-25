@@ -7,6 +7,20 @@
 //
 
 #import "TLMViewController.h"
+#import "XCDynamicLoader.h"
+
+XC_FUNCTION_EXPORT(LEVLE_A)(){
+    NSLog(@"level A, ViewController");
+}
+XC_FUNCTION_EXPORT(LEVLE_B)(){
+    NSLog(@"level B, ViewController");
+}
+XC_FUNCTION_EXPORT(LEVLE_C)(){
+    NSLog(@"level C, ViewController");
+}
+XC_FUNCTION_EXPORT(LEVLE_D)(){
+    NSLog(@"level D, ViewController");
+}
 
 @interface TLMViewController ()
 

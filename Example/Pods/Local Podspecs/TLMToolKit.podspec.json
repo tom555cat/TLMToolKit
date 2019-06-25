@@ -18,5 +18,22 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TLMToolKit/Classes/**/*"
+  "source_files": "TLMToolKit/**/*",
+  "subspecs": [
+    {
+      "name": "TLMRegisterInitFunc",
+      "source_files": "TLMToolKit/TLMRegisterInitFunc/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMRegisterInitFunc/*.h"
+    },
+    {
+      "name": "TLMNetwork",
+      "source_files": "TLMToolKit/TLMNetwork/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMNetwork/*.h"
+    },
+    {
+      "name": "TLMLogger",
+      "source_files": "TLMToolKit/TLMLogger/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMLogger/*.h"
+    }
+  ]
 }

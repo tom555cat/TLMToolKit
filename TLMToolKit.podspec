@@ -29,8 +29,22 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TLMToolKit/Classes/**/*'
+  s.source_files = 'TLMToolKit/**/*'
+  
+  s.subspec 'TLMRegisterInitFunc' do |registerInitFunc|
+    registerInitFunc.source_files  = "TLMToolKit/TLMRegisterInitFunc/*.{h,m}"
+    registerInitFunc.public_header_files = "TLMToolKit/TLMRegisterInitFunc/*.h"
+  end
+  
+  s.subspec 'TLMNetwork' do |network|
+    network.source_files  = "TLMToolKit/TLMNetwork/*.{h,m}"
+    network.public_header_files = "TLMToolKit/TLMNetwork/*.h"
+  end
+  
+  s.subspec 'TLMLogger' do |logger|
+    logger.source_files  = "TLMToolKit/TLMLogger/*.{h,m}"
+    logger.public_header_files = "TLMToolKit/TLMLogger/*.h"
+  end
   
   # s.resource_bundles = {
   #   'TLMToolKit' => ['TLMToolKit/Assets/*.png']
