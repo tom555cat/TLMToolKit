@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		044C28216C38B93DED8855FA0A5FA92C /* TLMToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-prefix.pch"; sourceTree = "<group>"; };
-		0A9C5E640C3FAB54DDE9FBB6C1833924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0A9C5E640C3FAB54DDE9FBB6C1833924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		17E72FEA070F53D2BFC9D99B1111A3AD /* Pods-TLMToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D360FC9E3504913A7F7EA34DC7028F6 /* Pods-TLMToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLMToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		1F4B3FF622B612736E1053EA67EFA2D9 /* TLMToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMToolKit-dummy.m"; sourceTree = "<group>"; };
@@ -56,9 +56,9 @@
 		333B06A6575042A1FF0209FD9562EB2C /* TLMToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMToolKit.xcconfig; sourceTree = "<group>"; };
 		3608CCC1A45B5078E09F9F64DE2E98F2 /* Pods-TLMToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36FE83DC692106264153B028A86D741F /* XCHostUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCHostUtil.h; path = TLMToolKit/Classes/XCHostUtil.h; sourceTree = "<group>"; };
-		3F6E5514CAB418978D7EA75EFC82BB10 /* TLMToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLMToolKit.framework; path = TLMToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E5514CAB418978D7EA75EFC82BB10 /* TLMToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLMToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CC6575DEA3132195D106673C8FEF94 /* Pods-TLMToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D3512A4D9B5B698CE60E28E8E6B71A3 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLMToolKit_Tests.framework; path = "Pods-TLMToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3512A4D9B5B698CE60E28E8E6B71A3 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5395D511467664D002FDBBCAD8962 /* Pods-TLMToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Example-Info.plist"; sourceTree = "<group>"; };
 		5307A20D3E673974E6C3F41604A42776 /* XCDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDynamicLoader.h; path = TLMToolKit/Classes/XCDynamicLoader.h; sourceTree = "<group>"; };
 		572A0D8A6A41D6A7710D22312DBB7114 /* Pods-TLMToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -68,10 +68,10 @@
 		6B1A6BE070EF315F8E476B20120FD660 /* TLMPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLMPerformanceLogger.h; path = TLMToolKit/Classes/TLMPerformanceLogger.h; sourceTree = "<group>"; };
 		772526D1770C876D9EE1985B2C71657A /* NSString+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+addition.m"; path = "TLMToolKit/Classes/NSString+addition.m"; sourceTree = "<group>"; };
 		7A67F1F42575E42FC10E1BD4E5C96262 /* Pods-TLMToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8F6FFF3FCF986A65A6DAD42AC1F85E7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F6FFF3FCF986A65A6DAD42AC1F85E7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		97E0C7E9AB651C629CEE6222D01F3ABC /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A26F515545A7520E1E6AEC9D26510C79 /* Pods_TLMToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLMToolKit_Example.framework; path = "Pods-TLMToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26F515545A7520E1E6AEC9D26510C79 /* Pods_TLMToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B036404C28BBCFF9FE41158A9E358881 /* XCModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCModuleManager.h; path = TLMToolKit/Classes/XCModuleManager.h; sourceTree = "<group>"; };
 		C4BE78F15DBDA8E16470E2931BCF0DA1 /* Pods-TLMToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5C2500AD5E7E836B91B74FAED8FCDFF /* Pods-TLMToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		D7DA75F9562474EF9857E2EB1D588ADF /* TLMToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLMToolKit-Info.plist"; sourceTree = "<group>"; };
 		D85F4CC30F575A804D88CD68DA1BAE8E /* TLMToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-umbrella.h"; sourceTree = "<group>"; };
 		DC9BF052E71133F18B2A255F7C648BB6 /* TLMToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLMToolKit.modulemap; sourceTree = "<group>"; };
-		DF9905D962819DFFEBF66654A55A1DC5 /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF9905D962819DFFEBF66654A55A1DC5 /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E07E04CE1910E8EB8F6B9795DF222496 /* Pods-TLMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7F43BC680156290667C02CF7AFF79C6 /* Pods-TLMToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		ED21C43F30165ED77FDA7D024D68A653 /* Pods-TLMToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLMToolKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -492,8 +492,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

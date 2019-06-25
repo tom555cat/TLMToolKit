@@ -18,9 +18,9 @@ extern char * LEVEL_C;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_A"];
-    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_B"];
-    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_C"];
+//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_A"];
+//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_B"];
+//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_C"];
     
     return YES;
 }

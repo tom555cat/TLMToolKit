@@ -24,8 +24,13 @@
 
 - (instancetype)init {
     self = [super init];
-    if (self) {
-        self.levelArray = @[@"LEVEL_A", @"LEVEL_B", @"LEVEL_C"];
+    if (self) {        
+        self.levelArray = @[
+                            @"LEVEL_A",
+                            @"LEVEL_B",
+                            @"LEVEL_C",
+                            @"LEVEL_D"
+                            ];
         self.modInitFuncPtrArrayLevelDic = [NSMutableDictionary dictionary];
         for (NSString *level in self.levelArray) {
             self.modInitFuncPtrArrayLevelDic[level] = [NSMutableArray array];

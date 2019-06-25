@@ -15,9 +15,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)addModuleInitFuncs:(NSArray *)funcArray forLevel:(NSString *)level;
 
-//@[@"LEVEL_A", @"LEVEL_B", @"LEVEL_C"];
-@property (nonatomic, strong) NSArray *levelArray;
 
+// 对应阶段
+//@"XCStartWillLaunch" : @"LEVEL_A",
+//@"XCStartBeforeFirstPageConstruct": @"LEVEL_B",
+//@"XCStartAfterFirstPageConstruct": @"LEVEL_C",
+//@"XCStartAfterFirstPageRender": @"LEVEL_D"
+@property (nonatomic, strong) NSArray *levelArray;
 @property (nonatomic, strong) NSMutableDictionary *modInitFuncPtrArrayLevelDic;
 
 @end
