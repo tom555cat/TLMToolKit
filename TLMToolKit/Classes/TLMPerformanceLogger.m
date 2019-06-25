@@ -19,11 +19,32 @@
 
 @implementation TLMPerformanceLogger
 
+//TLMPLMainFunction = 0,
+//TLMPLApplicationDidFinishLaunching,
+//TLMPLUpDateBundle,
+//TLMPLDoCheckUpdate,
+//TLMPLCheckDo,
+//TLMPLBundleLoad,
+
++ (instancetype)sharedLogger {
+    static TLMPerformanceLogger *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[TLMPerformanceLogger alloc] init];
+    });
+    return instance;
+}
+
 - (instancetype)init
 {
     if (self = [super init]) {
         _labelsForTags = @[
                            @"MainFunction",
+                           @"ApplicationDidFinishLaunching",
+                           @"UpDateBundle",
+                           @"DoCheckUpdate",
+                           @"CheckDo",
+                           @"BundleLoad"
                            ];
     }
     return self;

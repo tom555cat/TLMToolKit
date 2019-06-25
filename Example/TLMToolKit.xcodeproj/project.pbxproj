@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8A83E17B0AB721193AF53B41 /* Pods_TLMToolKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA8365B066132B28959C60D /* Pods_TLMToolKit_Example.framework */; };
+		8E152E5A22C0F55A00347AAC /* TLMLoadObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E152E5922C0F55A00347AAC /* TLMLoadObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		7E3AE9AA089202213AE1D4B5 /* Pods-TLMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Tests/Pods-TLMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E7E675EACB1BDFB912B1B9 /* Pods_TLMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E152E5822C0F55A00347AAC /* TLMLoadObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMLoadObj.h; sourceTree = "<group>"; };
+		8E152E5922C0F55A00347AAC /* TLMLoadObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMLoadObj.m; sourceTree = "<group>"; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				8E152E5822C0F55A00347AAC /* TLMLoadObj.h */,
+				8E152E5922C0F55A00347AAC /* TLMLoadObj.m */,
 			);
 			name = "Example for TLMToolKit";
 			path = TLMToolKit;
@@ -373,6 +378,7 @@
 				6003F59E195388D20070C39A /* TLMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TLMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8E152E5A22C0F55A00347AAC /* TLMLoadObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

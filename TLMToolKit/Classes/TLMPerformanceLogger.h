@@ -11,10 +11,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, TLMPLTag) {
     TLMPLMainFunction = 0,
+    TLMPLApplicationDidFinishLaunching,
+    TLMPLUpDateBundle,
+    TLMPLDoCheckUpdate,
+    TLMPLCheckDo,
+    TLMPLBundleLoad,
     TLMPLSize
 };
 
 @interface TLMPerformanceLogger : NSObject
+
++ (instancetype)sharedLogger;
 
 /**
  * Starts measuring a metric with the given tag.
