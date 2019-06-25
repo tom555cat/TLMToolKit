@@ -9,21 +9,16 @@
 #import "TLMAppDelegate.h"
 #import "XCDynamicLoader.h"
 
-extern char * LEVEL_A;
-extern char * LEVEL_B;
-extern char * LEVEL_C;
-
 @implementation TLMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_A"];
-//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_B"];
-//    [XCDynamicLoader executeFunctionsForLevel:@"LEVEL_C"];
     
     [XCDynamicLoader executeFunctionsForKey:@"LEVEL_A"];
-    
+    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_B"];
+    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_C"];
+    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_D"];
     return YES;
 }
 
