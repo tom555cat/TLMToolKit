@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedManager;
 
-- (void)addModuleInitFuncs:(NSArray *)funcArray forLevel:(NSString *)level;
+- (void)addModuleInitFuncs:(NSArray *)funcArray forStage:(NSString *)stage;
 
 
 // 对应阶段
@@ -21,8 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 //@"XCStartBeforeFirstPageConstruct": @"LEVEL_B",
 //@"XCStartAfterFirstPageConstruct": @"LEVEL_C",
 //@"XCStartAfterFirstPageRender": @"LEVEL_D"
-@property (nonatomic, strong) NSArray *levelArray;
-@property (nonatomic, strong) NSMutableDictionary *modInitFuncPtrArrayLevelDic;
+@property (nonatomic, strong) NSArray *stageArray;
+@property (nonatomic, strong) NSMutableDictionary *modInitFuncPtrArrayStageDic;
 
 @end
 

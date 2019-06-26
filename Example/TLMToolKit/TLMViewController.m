@@ -9,19 +9,6 @@
 #import "TLMViewController.h"
 #import "XCDynamicLoader.h"
 
-XC_FUNCTION_EXPORT(LEVEL_A)(){
-    NSLog(@"level A, ViewController");
-}
-XC_FUNCTION_EXPORT(LEVEL_B)(){
-    NSLog(@"level B, ViewController");
-}
-XC_FUNCTION_EXPORT(LEVEL_C)(){
-    NSLog(@"level C, ViewController");
-}
-XC_FUNCTION_EXPORT(LEVEL_D)(){
-    NSLog(@"level D, ViewController");
-}
-
 @interface TLMViewController ()
 
 @end
@@ -32,8 +19,12 @@ XC_FUNCTION_EXPORT(LEVEL_D)(){
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     
-    
+    [XCDynamicLoader executeFunctionsForKey:@"STAGE_C"];
 }
 
 - (void)didReceiveMemoryWarning

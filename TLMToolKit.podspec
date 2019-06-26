@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/tom555cat/TLMToolKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tongleiming1989@sina.com' => 'tongleiming@daling.com' }
+  s.author           = { 'TongLeimign' => 'tongleiming1989@sina.com' }
   s.source           = { :git => 'https://github.com/tom555cat/TLMToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -25,23 +25,23 @@
 - (instancetype)init {
     self = [super init];
     if (self) {        
-        self.levelArray = @[
-                            @"LEVEL_A",
-                            @"LEVEL_B",
-                            @"LEVEL_C",
-                            @"LEVEL_D"
+        self.stageArray = @[
+                            @"STAGE_A",
+                            @"STAGE_B",
+                            @"STAGE_C",
+                            @"STAGE_D"
                             ];
-        self.modInitFuncPtrArrayLevelDic = [NSMutableDictionary dictionary];
-        for (NSString *level in self.levelArray) {
-            self.modInitFuncPtrArrayLevelDic[level] = [NSMutableArray array];
+        self.modInitFuncPtrArrayStageDic = [NSMutableDictionary dictionary];
+        for (NSString *stage in self.stageArray) {
+            self.modInitFuncPtrArrayStageDic[stage] = [NSMutableArray array];
         }
     }
     return self;
 }
 
-- (void)addModuleInitFuncs:(NSArray *)funcArray forLevel:(NSString *)level {
-    NSMutableArray *levelArray = self.modInitFuncPtrArrayLevelDic[level];
-    [levelArray addObjectsFromArray:funcArray];
+- (void)addModuleInitFuncs:(NSArray *)funcArray forStage:(NSString *)stage {
+    NSMutableArray *stageArray = self.modInitFuncPtrArrayStageDic[stage];
+    [stageArray addObjectsFromArray:funcArray];
 }
 
 @end

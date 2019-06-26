@@ -1,11 +1,11 @@
 PODS:
-  - TLMToolKit (0.1.0):
-    - TLMToolKit/TLMLogger (= 0.1.0)
-    - TLMToolKit/TLMNetwork (= 0.1.0)
-    - TLMToolKit/TLMRegisterInitFunc (= 0.1.0)
-  - TLMToolKit/TLMLogger (0.1.0)
-  - TLMToolKit/TLMNetwork (0.1.0)
-  - TLMToolKit/TLMRegisterInitFunc (0.1.0)
+  - TLMToolKit (0.1.1):
+    - TLMToolKit/TLMLogger (= 0.1.1)
+    - TLMToolKit/TLMNetwork (= 0.1.1)
+    - TLMToolKit/TLMRegisterInitFunc (= 0.1.1)
+  - TLMToolKit/TLMLogger (0.1.1)
+  - TLMToolKit/TLMNetwork (0.1.1)
+  - TLMToolKit/TLMRegisterInitFunc (0.1.1)
 
 DEPENDENCIES:
   - TLMToolKit (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TLMToolKit: 92f94d15362f55aeae4163a8df114651ceff3199
+  TLMToolKit: 5e64971411eecd78f5fc8a1dde443d64cc3c0ca4
 
-PODFILE CHECKSUM: 24d2789774b4e3c6a34e2d261ae2561241ace416
+PODFILE CHECKSUM: 3362cf4b15f0951ea9568d98c84ad4ab301119c6
 
 COCOAPODS: 1.6.1

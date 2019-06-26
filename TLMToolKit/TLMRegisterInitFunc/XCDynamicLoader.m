@@ -23,7 +23,7 @@ typedef struct section XCExportSection;
 #endif
 
 static void XCDynamicLoader_invoke_method(NSString *level){
-    NSArray *funcArray = [[[XCModuleManager sharedManager] modInitFuncPtrArrayLevelDic] objectForKey:level];
+    NSArray *funcArray = [[[XCModuleManager sharedManager] modInitFuncPtrArrayStageDic] objectForKey:level];
     for (NSValue *val in funcArray) {
         XCDynamicLoaderInjectFunction func = val.pointerValue;
         func();
@@ -33,10 +33,10 @@ static void XCDynamicLoader_invoke_method(NSString *level){
 NSArray<NSValue *>* XCReadSection(char *sectionName, const struct mach_header *mhp);
 
 static void dyld_callback(const struct mach_header *mhp, intptr_t vmaddr_slide) {
-    for (NSString *level in [XCModuleManager sharedManager].levelArray) {
-        NSString *fKey = [NSString stringWithFormat:@"__%@%s", level?:@"", XCDYML_SECTION_SUFFIX];
+    for (NSString *stage in [XCModuleManager sharedManager].stageArray) {
+        NSString *fKey = [NSString stringWithFormat:@"__%@%s", stage?:@"", XCDYML_SECTION_SUFFIX];
         NSArray *funcArray = XCReadSection((char *)[fKey UTF8String], mhp);
-        [[XCModuleManager sharedManager] addModuleInitFuncs:funcArray forLevel:level];
+        [[XCModuleManager sharedManager] addModuleInitFuncs:funcArray forStage:stage];
     }
 }
 

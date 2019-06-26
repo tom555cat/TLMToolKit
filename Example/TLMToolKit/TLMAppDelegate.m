@@ -15,10 +15,8 @@
 {
     // Override point for customization after application launch.
     
-    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_A"];
-    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_B"];
-    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_C"];
-    [XCDynamicLoader executeFunctionsForKey:@"LEVEL_D"];
+    [XCDynamicLoader executeFunctionsForKey:@"STAGE_A"];
+    [XCDynamicLoader executeFunctionsForKey:@"STAGE_B"];
     return YES;
 }
 
