@@ -46,11 +46,23 @@ TODO: Add long description of the pod here.
     logger.public_header_files = "TLMToolKit/TLMLogger/*.h"
   end
   
+  s.subspec 'TLMStackTrack' do |stackTrack|
+    stackTrack.source_files  = "TLMToolKit/TLMStackTrack/*.{h,m}"
+    stackTrack.public_header_files = "TLMToolKit/TLMStackTrack/*.h"
+  end
+  
+  s.subspec 'TLMOutOfMemory' do |outOfMemory|
+    outOfMemory.source_files  = "TLMToolKit/TLMOutOfMemory/*.{h,m}"
+    outOfMemory.public_header_files = "TLMToolKit/TLMOutOfMemory/*.h"
+  end
+  
   # s.resource_bundles = {
   #   'TLMToolKit' => ['TLMToolKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PLCrashReporter', '~> 1.2'
+  s.dependency 'AFNetworking'
+  s.dependency 'FBAllocationTracker'
 end

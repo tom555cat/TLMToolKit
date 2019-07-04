@@ -1,6 +1,6 @@
 {
   "name": "TLMToolKit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of TLMToolKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tom555cat/TLMToolKit",
@@ -9,16 +9,27 @@
     "file": "LICENSE"
   },
   "authors": {
-    "tongleiming1989@sina.com": "tongleiming@daling.com"
+    "TongLeimign": "tongleiming1989@sina.com"
   },
   "source": {
     "git": "https://github.com/tom555cat/TLMToolKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "TLMToolKit/**/*",
+  "dependencies": {
+    "PLCrashReporter": [
+      "~> 1.2"
+    ],
+    "AFNetworking": [
+
+    ],
+    "FBAllocationTracker": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "TLMRegisterInitFunc",
@@ -34,6 +45,16 @@
       "name": "TLMLogger",
       "source_files": "TLMToolKit/TLMLogger/*.{h,m}",
       "public_header_files": "TLMToolKit/TLMLogger/*.h"
+    },
+    {
+      "name": "TLMStackTrack",
+      "source_files": "TLMToolKit/TLMStackTrack/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMStackTrack/*.h"
+    },
+    {
+      "name": "TLMOutOfMemory",
+      "source_files": "TLMToolKit/TLMOutOfMemory/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMOutOfMemory/*.h"
     }
   ]
 }

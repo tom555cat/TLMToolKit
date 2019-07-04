@@ -86,7 +86,7 @@
 		8E152F7022C3088B00347AAC /* TLMStageA_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMStageA_1.m; sourceTree = "<group>"; };
 		BC52B976788F2A339E35DF51 /* libPods-TLMToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLMToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; };
+		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

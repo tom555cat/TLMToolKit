@@ -8,6 +8,8 @@
 
 #import "TLMAppDelegate.h"
 #import "XCDynamicLoader.h"
+#import "TLMBackgroundTaskCheck.h"
+#import "TLMStackTrack.h"
 
 @implementation TLMAppDelegate
 
@@ -17,6 +19,10 @@
     
     [XCDynamicLoader executeFunctionsForKey:@"STAGE_A"];
     [XCDynamicLoader executeFunctionsForKey:@"STAGE_B"];
+    
+    [TLMBackgroundTaskCheck sharedManager];
+    //[[TLMStackTrack sharedManager] uploadStackTrack:@"123" traceName:@"fileName"];
+    
     return YES;
 }
 

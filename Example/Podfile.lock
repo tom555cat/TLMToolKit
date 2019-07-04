@@ -1,21 +1,69 @@
 PODS:
-  - TLMToolKit (0.1.1):
-    - TLMToolKit/TLMLogger (= 0.1.1)
-    - TLMToolKit/TLMNetwork (= 0.1.1)
-    - TLMToolKit/TLMRegisterInitFunc (= 0.1.1)
-  - TLMToolKit/TLMLogger (0.1.1)
-  - TLMToolKit/TLMNetwork (0.1.1)
-  - TLMToolKit/TLMRegisterInitFunc (0.1.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FBAllocationTracker (0.1.5)
+  - PLCrashReporter (1.2.0)
+  - TLMToolKit (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+    - TLMToolKit/TLMLogger (= 0.1.2)
+    - TLMToolKit/TLMNetwork (= 0.1.2)
+    - TLMToolKit/TLMOutOfMemory (= 0.1.2)
+    - TLMToolKit/TLMRegisterInitFunc (= 0.1.2)
+    - TLMToolKit/TLMStackTrack (= 0.1.2)
+  - TLMToolKit/TLMLogger (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+  - TLMToolKit/TLMNetwork (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+  - TLMToolKit/TLMOutOfMemory (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+  - TLMToolKit/TLMRegisterInitFunc (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+  - TLMToolKit/TLMStackTrack (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
 
 DEPENDENCIES:
   - TLMToolKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter
 
 EXTERNAL SOURCES:
   TLMToolKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TLMToolKit: 5e64971411eecd78f5fc8a1dde443d64cc3c0ca4
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
+  PLCrashReporter: 16927d86a093d0b9cf110545dacb77cb0ed0f243
+  TLMToolKit: 1fb274b54c61993ee07b1f62cf55bfc40a2d8271
 
 PODFILE CHECKSUM: 3362cf4b15f0951ea9568d98c84ad4ab301119c6
 
