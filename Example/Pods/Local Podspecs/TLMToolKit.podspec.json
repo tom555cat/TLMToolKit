@@ -47,14 +47,9 @@
       "public_header_files": "TLMToolKit/TLMLogger/*.h"
     },
     {
-      "name": "TLMStackTrack",
-      "source_files": "TLMToolKit/TLMStackTrack/*.{h,m}",
-      "public_header_files": "TLMToolKit/TLMStackTrack/*.h"
-    },
-    {
-      "name": "TLMOutOfMemory",
-      "source_files": "TLMToolKit/TLMOutOfMemory/*.{h,m}",
-      "public_header_files": "TLMToolKit/TLMOutOfMemory/*.h"
+      "name": "TLMMonitor",
+      "source_files": "TLMToolKit/TLMMonitor/*.{h,m}",
+      "public_header_files": "TLMToolKit/TLMMonitor/*.h"
     }
   ]
 }

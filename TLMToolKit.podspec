@@ -46,15 +46,20 @@ TODO: Add long description of the pod here.
     logger.public_header_files = "TLMToolKit/TLMLogger/*.h"
   end
   
-  s.subspec 'TLMStackTrack' do |stackTrack|
-    stackTrack.source_files  = "TLMToolKit/TLMStackTrack/*.{h,m}"
-    stackTrack.public_header_files = "TLMToolKit/TLMStackTrack/*.h"
+  s.subspec 'TLMMonitor' do |monitor|
+    monitor.source_files  = "TLMToolKit/TLMMonitor/*.{h,m}"
+    monitor.public_header_files = "TLMToolKit/TLMMonitor/*.h"
   end
   
-  s.subspec 'TLMOutOfMemory' do |outOfMemory|
-    outOfMemory.source_files  = "TLMToolKit/TLMOutOfMemory/*.{h,m}"
-    outOfMemory.public_header_files = "TLMToolKit/TLMOutOfMemory/*.h"
-  end
+#  s.subspec 'TLMStackTrack' do |stackTrack|
+#    stackTrack.source_files  = "TLMToolKit/TLMStackTrack/*.{h,m}"
+#    stackTrack.public_header_files = "TLMToolKit/TLMStackTrack/*.h"
+#  end
+#  
+#  s.subspec 'TLMOutOfMemory' do |outOfMemory|
+#    outOfMemory.source_files  = "TLMToolKit/TLMOutOfMemory/*.{h,m}"
+#    outOfMemory.public_header_files = "TLMToolKit/TLMOutOfMemory/*.h"
+#  end
   
   # s.resource_bundles = {
   #   'TLMToolKit' => ['TLMToolKit/Assets/*.png']

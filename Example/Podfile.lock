@@ -21,11 +21,14 @@ PODS:
     - FBAllocationTracker
     - PLCrashReporter (~> 1.2)
     - TLMToolKit/TLMLogger (= 0.1.2)
+    - TLMToolKit/TLMMonitor (= 0.1.2)
     - TLMToolKit/TLMNetwork (= 0.1.2)
-    - TLMToolKit/TLMOutOfMemory (= 0.1.2)
     - TLMToolKit/TLMRegisterInitFunc (= 0.1.2)
-    - TLMToolKit/TLMStackTrack (= 0.1.2)
   - TLMToolKit/TLMLogger (0.1.2):
+    - AFNetworking
+    - FBAllocationTracker
+    - PLCrashReporter (~> 1.2)
+  - TLMToolKit/TLMMonitor (0.1.2):
     - AFNetworking
     - FBAllocationTracker
     - PLCrashReporter (~> 1.2)
@@ -33,15 +36,7 @@ PODS:
     - AFNetworking
     - FBAllocationTracker
     - PLCrashReporter (~> 1.2)
-  - TLMToolKit/TLMOutOfMemory (0.1.2):
-    - AFNetworking
-    - FBAllocationTracker
-    - PLCrashReporter (~> 1.2)
   - TLMToolKit/TLMRegisterInitFunc (0.1.2):
-    - AFNetworking
-    - FBAllocationTracker
-    - PLCrashReporter (~> 1.2)
-  - TLMToolKit/TLMStackTrack (0.1.2):
     - AFNetworking
     - FBAllocationTracker
     - PLCrashReporter (~> 1.2)
@@ -63,7 +58,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
   PLCrashReporter: 16927d86a093d0b9cf110545dacb77cb0ed0f243
-  TLMToolKit: 1fb274b54c61993ee07b1f62cf55bfc40a2d8271
+  TLMToolKit: cad34e69e9e99f44f6d64d46f78c6377bfbe0322
 
 PODFILE CHECKSUM: 3362cf4b15f0951ea9568d98c84ad4ab301119c6
 

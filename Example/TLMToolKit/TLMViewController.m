@@ -8,7 +8,7 @@
 
 #import "TLMViewController.h"
 #import "XCDynamicLoader.h"
-#import "TLMStackTrack.h"
+#import "XCStackTrack.h"
 #import <FBAllocationTracker/FBAllocationTracker.h>
 
 @interface TLMViewController ()
