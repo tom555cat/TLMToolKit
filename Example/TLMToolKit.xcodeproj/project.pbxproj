@@ -32,6 +32,13 @@
 		8E152F6E22C3054200347AAC /* TLMStageC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E152F6C22C3054200347AAC /* TLMStageC.m */; };
 		8E152F7122C3088B00347AAC /* TLMStageA_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E152F7022C3088B00347AAC /* TLMStageA_1.m */; };
 		8E152F7222C3088B00347AAC /* TLMStageA_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E152F7022C3088B00347AAC /* TLMStageA_1.m */; };
+		8E2F16E822D3835E00F016FF /* TLMUILagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F16E722D3835E00F016FF /* TLMUILagViewController.m */; };
+		8E2F16EC22D3840900F016FF /* TLMUILageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F16EA22D3840900F016FF /* TLMUILageTableViewCell.m */; };
+		8E2F16ED22D3840900F016FF /* TLMUILageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F16EA22D3840900F016FF /* TLMUILageTableViewCell.m */; };
+		8E2F16EE22D3840900F016FF /* TLMUILageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16EB22D3840900F016FF /* TLMUILageTableViewCell.xib */; };
+		8E2F16EF22D3840900F016FF /* TLMUILageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16EB22D3840900F016FF /* TLMUILageTableViewCell.xib */; };
+		8E2F16F122D387CD00F016FF /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16F022D387CD00F016FF /* spaceship.jpg */; };
+		8E2F16F222D387CD00F016FF /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16F022D387CD00F016FF /* spaceship.jpg */; };
 		9EF8B19D35364D6E6EFD78AD /* libPods-TLMToolKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC52B976788F2A339E35DF51 /* libPods-TLMToolKit_Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +91,12 @@
 		8E152F6C22C3054200347AAC /* TLMStageC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMStageC.m; sourceTree = "<group>"; };
 		8E152F6F22C3088B00347AAC /* TLMStageA_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMStageA_1.h; sourceTree = "<group>"; };
 		8E152F7022C3088B00347AAC /* TLMStageA_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMStageA_1.m; sourceTree = "<group>"; };
+		8E2F16E622D3835E00F016FF /* TLMUILagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMUILagViewController.h; sourceTree = "<group>"; };
+		8E2F16E722D3835E00F016FF /* TLMUILagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMUILagViewController.m; sourceTree = "<group>"; };
+		8E2F16E922D3840900F016FF /* TLMUILageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMUILageTableViewCell.h; sourceTree = "<group>"; };
+		8E2F16EA22D3840900F016FF /* TLMUILageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMUILageTableViewCell.m; sourceTree = "<group>"; };
+		8E2F16EB22D3840900F016FF /* TLMUILageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLMUILageTableViewCell.xib; sourceTree = "<group>"; };
+		8E2F16F022D387CD00F016FF /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpg; sourceTree = "<group>"; };
 		BC52B976788F2A339E35DF51 /* libPods-TLMToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLMToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -164,6 +177,7 @@
 		6003F593195388D20070C39A /* Example for TLMToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F16E522D382D800F016FF /* UILagTest */,
 				8E152F6A22C3046800347AAC /* RegisterInitFunc */,
 				6003F59C195388D20070C39A /* TLMAppDelegate.h */,
 				6003F59D195388D20070C39A /* TLMAppDelegate.m */,
@@ -233,6 +247,19 @@
 				8E152F7022C3088B00347AAC /* TLMStageA_1.m */,
 			);
 			name = RegisterInitFunc;
+			sourceTree = "<group>";
+		};
+		8E2F16E522D382D800F016FF /* UILagTest */ = {
+			isa = PBXGroup;
+			children = (
+				8E2F16F022D387CD00F016FF /* spaceship.jpg */,
+				8E2F16E622D3835E00F016FF /* TLMUILagViewController.h */,
+				8E2F16E722D3835E00F016FF /* TLMUILagViewController.m */,
+				8E2F16E922D3840900F016FF /* TLMUILageTableViewCell.h */,
+				8E2F16EA22D3840900F016FF /* TLMUILageTableViewCell.m */,
+				8E2F16EB22D3840900F016FF /* TLMUILageTableViewCell.xib */,
+			);
+			name = UILagTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F16F122D387CD00F016FF /* spaceship.jpg in Resources */,
+				8E2F16EE22D3840900F016FF /* TLMUILageTableViewCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -328,6 +357,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F16F222D387CD00F016FF /* spaceship.jpg in Resources */,
+				8E2F16EF22D3840900F016FF /* TLMUILageTableViewCell.xib in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,11 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2F16EC22D3840900F016FF /* TLMUILageTableViewCell.m in Sources */,
 				8E152F6D22C3054200347AAC /* TLMStageC.m in Sources */,
 				6003F59E195388D20070C39A /* TLMAppDelegate.m in Sources */,
 				8E152F7122C3088B00347AAC /* TLMStageA_1.m in Sources */,
 				6003F5A7195388D20070C39A /* TLMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8E2F16E822D3835E00F016FF /* TLMUILagViewController.m in Sources */,
 				8E152F6422C3045300347AAC /* TLMStageA.m in Sources */,
 				8E152E5A22C0F55A00347AAC /* TLMLoadObj.m in Sources */,
 				8E152F6822C3046300347AAC /* TLMStageB.m in Sources */,
@@ -395,6 +428,7 @@
 			files = (
 				8E152F6522C3045300347AAC /* TLMStageA.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				8E2F16ED22D3840900F016FF /* TLMUILageTableViewCell.m in Sources */,
 				8E152F6E22C3054200347AAC /* TLMStageC.m in Sources */,
 				8E152F7222C3088B00347AAC /* TLMStageA_1.m in Sources */,
 				8E152F6922C3046300347AAC /* TLMStageB.m in Sources */,
