@@ -39,6 +39,14 @@ RAM_FUNCTION_EXPORT(XCMonitor)() {
     return instance;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self beginMonitor];
+    }
+    return self;
+}
+
 - (void)beginMonitor {
     
     if (runLoopObserver) {
@@ -71,7 +79,10 @@ RAM_FUNCTION_EXPORT(XCMonitor)() {
                 
                 // runLoopActivity == kCFRunLoopBeforeSources:因为执行source而久久不能进入睡眠；
                 // runLoopActivity == kCFRunLoopAfterWaiting:因为唤醒的事件久久不能处理完
-                if (self->runLoopActivity == kCFRunLoopBeforeSources || self->runLoopActivity == kCFRunLoopAfterWaiting) {
+                if (self->runLoopActivity == kCFRunLoopBeforeSources || self->runLoopActivity == kCFRunLoopAfterWaiting ||
+                    self->runLoopActivity == kCFRunLoopEntry ||
+                    self->runLoopActivity == kCFRunLoopBeforeTimers ||
+                    self->runLoopActivity == 0) {
                     if (++self->timeoutCount < 3) {   // 连续发生两次超时，认为是UI卡顿
                         continue;
                     }
