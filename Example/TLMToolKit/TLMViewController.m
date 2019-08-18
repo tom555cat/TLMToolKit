@@ -11,6 +11,7 @@
 #import "XCStackTrack.h"
 #import <FBAllocationTracker/FBAllocationTracker.h>
 #import "TLMUILagViewController.h"
+#import "TLMNetworkMetricsViewController.h"
 
 @interface TLMViewController ()
 
@@ -29,15 +30,6 @@
     
     NSObject *t = [[NSObject alloc] init];
     
-//    for (NSInteger i = 0; i < 1000000; i++) {
-//        NSLog(@"123");
-//    }
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        for (NSInteger i = 0; i < 1000000; i++) {
-            NSLog(@"123");
-        }
-    });
     
     NSLog(@"%@", [self memorySummary]);
     
@@ -48,6 +40,10 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (IBAction)networkMetrics:(id)sender {
+    TLMNetworkMetricsViewController *vc = [[TLMNetworkMetricsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (NSArray *)memorySummary
 {
