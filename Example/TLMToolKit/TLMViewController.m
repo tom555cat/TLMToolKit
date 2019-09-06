@@ -12,6 +12,7 @@
 #import <FBAllocationTracker/FBAllocationTracker.h>
 #import "TLMUILagViewController.h"
 #import "XCMonitorSettingViewController.h"
+#import "TLMNetworkMetricsViewController.h"
 
 @interface TLMViewController ()
 
@@ -54,6 +55,10 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (IBAction)networkMetrics:(id)sender {
+    TLMNetworkMetricsViewController *vc = [[TLMNetworkMetricsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (NSArray *)memorySummary
 {

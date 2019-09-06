@@ -40,6 +40,8 @@
 		8E2F16F122D387CD00F016FF /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16F022D387CD00F016FF /* spaceship.jpg */; };
 		8E2F16F222D387CD00F016FF /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2F16F022D387CD00F016FF /* spaceship.jpg */; };
 		9EF8B19D35364D6E6EFD78AD /* libPods-TLMToolKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC52B976788F2A339E35DF51 /* libPods-TLMToolKit_Tests.a */; };
+		E9AEDDEA23080BD200CDE833 /* TLMNetworkMetricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AEDDE923080BD200CDE833 /* TLMNetworkMetricsViewController.m */; };
+		E9AEDDEB23080BD200CDE833 /* TLMNetworkMetricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AEDDE923080BD200CDE833 /* TLMNetworkMetricsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		8E2F16F022D387CD00F016FF /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpg; sourceTree = "<group>"; };
 		BC52B976788F2A339E35DF51 /* libPods-TLMToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLMToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07A7AC46C11BAD884D86CE0 /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TLMToolKit_Example/Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E9AEDDE823080BD200CDE833 /* TLMNetworkMetricsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMNetworkMetricsViewController.h; sourceTree = "<group>"; };
+		E9AEDDE923080BD200CDE833 /* TLMNetworkMetricsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMNetworkMetricsViewController.m; sourceTree = "<group>"; };
 		FBA5A1AE8FDEB7143FB2FB60 /* TLMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLMToolKit.podspec; path = ../TLMToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -189,6 +193,8 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				8E152E5822C0F55A00347AAC /* TLMLoadObj.h */,
 				8E152E5922C0F55A00347AAC /* TLMLoadObj.m */,
+				E9AEDDE823080BD200CDE833 /* TLMNetworkMetricsViewController.h */,
+				E9AEDDE923080BD200CDE833 /* TLMNetworkMetricsViewController.m */,
 			);
 			name = "Example for TLMToolKit";
 			path = TLMToolKit;
@@ -416,6 +422,7 @@
 				6003F5A7195388D20070C39A /* TLMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				8E2F16E822D3835E00F016FF /* TLMUILagViewController.m in Sources */,
+				E9AEDDEA23080BD200CDE833 /* TLMNetworkMetricsViewController.m in Sources */,
 				8E152F6422C3045300347AAC /* TLMStageA.m in Sources */,
 				8E152E5A22C0F55A00347AAC /* TLMLoadObj.m in Sources */,
 				8E152F6822C3046300347AAC /* TLMStageB.m in Sources */,
@@ -426,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AEDDEB23080BD200CDE833 /* TLMNetworkMetricsViewController.m in Sources */,
 				8E152F6522C3045300347AAC /* TLMStageA.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 				8E2F16ED22D3840900F016FF /* TLMUILageTableViewCell.m in Sources */,
