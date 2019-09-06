@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XCMonitorReport : NSObject
 
+- (void)uploadLocalLogFiles;
+
 @end
 
 NS_ASSUME_NONNULL_END

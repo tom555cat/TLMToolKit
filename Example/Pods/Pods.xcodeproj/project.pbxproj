@@ -19,97 +19,101 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		01C2E0245FEEA6CC85D73607103F3A57 /* TLMPerformanceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA372008C8D2065B126FE350E84A07C /* TLMPerformanceLogger.m */; };
 		022AA9C914C08FE164F6A72C4C3ECCE2 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6457910EDE8C41C23B2137740F585CB3 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05364EAEB6FACCC027955520CBB9C60C /* XCMonitorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CE65AC0DD566E8B77B821D9DE88A1E /* XCMonitorUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05E1A24D1847F1778866612B8BC9CF72 /* XCBackgroundTaskCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89652253DF81A8543D88977396C655 /* XCBackgroundTaskCheck.m */; };
-		06A3132674F88D8DA35B8D8D04F43083 /* XCMonitorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 930B4C00B75E408D4E33BA0F4A833FF6 /* XCMonitorLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		073DCBF5208DF7716D4560CDE267AB63 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CE371CF6F0EB7937D7F2142E65D17075 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08394D51CD8FC5AD106D360DAFFE740D /* XCStackTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FD7C7D2A812C0C8FAF18B0196A9526 /* XCStackTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0C06F38E2739F2221ED383FBCC31E0B0 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6BA0ECBC851E9E20BC6D3B65AB459 /* AFImageDownloader.m */; };
+		0C2C6FC6F4AFFB944C3ADA6B62918FE0 /* XCBackgroundTaskCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 04762DCB9A696F21A98E4001DE2E64A0 /* XCBackgroundTaskCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0DC9E989097832C599A0CFDA08D2F608 /* FBAllocationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C0643DA1F1CF3DF8C1B37034B63E7FC8 /* FBAllocationTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0FCDBD23A36B2852D5F959AF817C6BAB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F379E34D9E8B2B7A29A5A11657735C /* UIProgressView+AFNetworking.m */; };
+		11BD2073379F9909C147B5168EA6AF7A /* XCHostUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C58DC606DF398B199D39F1EDDDD3FA /* XCHostUtil.m */; };
 		11E4BFDAECB89949FC519FBD462ECE8E /* FBAllocationTrackerImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 134C7E63D84A1B5199163F852C26994D /* FBAllocationTrackerImpl.mm */; };
 		1240B44D07E5C748DE29CE790FF09102 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D800F022B9B8EE751E379EC1787A94 /* AFNetworkActivityIndicatorManager.m */; };
+		146684083A25A49B95FA7BBB86DED603 /* XCMonitorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C59F1E344E3C98E2378A2F2BE0F48FF /* XCMonitorConfig.m */; };
 		1514DD47DD0EFE7D6ABFC27EE743D12C /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F78B84CB72175266CC30446AEADE7336 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15295CEF88568A41209A9E95CAE4443D /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB474D98E5296C0D91F49868F41D03 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		188943282C3E7742C54907A531F34F3B /* XCMonitorDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEA92B833DB96660CA8DA9D08846615 /* XCMonitorDynamicLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		197156E25EC470C60F517DEBCC85AF1C /* XCMonitorAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F04D0A068AFC17443AE84B96DABF2BC /* XCMonitorAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1BD5E649175D0EAC6F87601ECB1CA69D /* XCMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F2F8DE71F8D14A856D6E49B767CCF /* XCMemoryMonitor.m */; };
+		17B1072E0C19C0F3D9D9B602743A97B9 /* XCUILagCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F272B6DC3EC111ADDF695FE7BC09000B /* XCUILagCheck.m */; };
+		1A9E47678FCF28EEE894A5AD243A6F00 /* XCMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A36739D580BDDD337A182C0996F9FFEA /* XCMemoryMonitor.m */; };
 		1CE1EBADD7271A9FF8A71D3132041B2C /* Pods-TLMToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D04FEF41DEDFE94F83222C96D77512 /* Pods-TLMToolKit_Example-dummy.m */; };
 		20E969B72751C31E0CCD1FA60E87624B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 51382E527CA1A90ECC6D50A8DD7512AE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		27238A69EDDF5B559B34DC31D3825F72 /* FBAllocationTrackerGeneration.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A2EFF691014B89D0EB219B20B08E63 /* FBAllocationTrackerGeneration.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		287EF111859C8D9169E8FB148678DB13 /* FBAllocationTrackerGenerationManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A29F41EC9E85B0F8CDA2284412B15 /* FBAllocationTrackerGenerationManager.mm */; };
-		28C7331907594D49639A0BB4F739F7BF /* XCMonitorReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1797C80705977F11E262007FDB258BD5 /* XCMonitorReport.m */; };
 		296EF40D064952BAF86099E7AFC4BBDB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DF2598BF077558581F76D6F08CA2B0 /* UIWebView+AFNetworking.m */; };
-		3268122A1758B5C933770DA79F396EC1 /* TLMPerformanceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CA56762AD89E4118B7D1C09E297F6377 /* TLMPerformanceLogger.m */; };
+		2B0CEE6FCA973568A2F3B7CD15733DF2 /* XCDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DF924CE2A73FA6F62505F19DC658F3 /* XCDynamicLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		310DAF0C55F806D7B8AF07F7A02A493A /* XCHostUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D353DF696657BC9C15EE939FE1F07BA5 /* XCHostUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		362ACDD62970835DB9C059EEAB1C10D4 /* FBAllocationTrackerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC3D2A7B3CBCE470140F5874D87FEC6 /* FBAllocationTrackerDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3633A38070F9558B9B0065EA9D267FAC /* XCMonitorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FEFC740F2A91F0A66B177043A7EF02 /* XCMonitorConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38BF3CBE058993519A84BE074C1CE30C /* XCUILagCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6A7813730737A28CCD685A203738A9 /* XCUILagCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3905F44A6CB8EC982796F25D562DD5DB /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 98688F10FE59DD913C7A650B6A59D732 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3C181BA2F848DB4332D849FFC0327DFA /* NSObject+FBAllocationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = BF963717D62155A4694CCDC9724E3DC4 /* NSObject+FBAllocationTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D3733DAB4C62F8676FBF639F1C4100F /* XCMonitorReport.h in Headers */ = {isa = PBXBuildFile; fileRef = F96CD41A76561AA53612A8DBCBAAF029 /* XCMonitorReport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45DA05D57A75EE9094C753F20334E526 /* XCMonitorReport.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8F3DA044F3DCD8A358987DBB88B5F2 /* XCMonitorReport.m */; };
+		481DEB020CF22C53729067549B998430 /* XCMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 73921CBCA13E72C6DC30FA4946AE8538 /* XCMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4931C07E07520F809488D789C5EB2712 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F8CF485ECBFBC7DD2D0D30068D0AAB /* AFNetworking-dummy.m */; };
 		4A76C618F60268660B024DC54B19B0A1 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B97AD90ABADA5325517985658DF07E4 /* UIActivityIndicatorView+AFNetworking.m */; };
 		4ADE9BBFD6AC48AF95EB8446D4684F27 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 02257F2AAC24F9D0597E9AA6FF14E870 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B57A6F4019CD902317D4D15342633D9 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEAF2B138BECFAAD680C1367795B19A /* AFAutoPurgingImageCache.m */; };
-		4BF96EFE5842AF8D3093BA9E04EAB53B /* XCStackTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = F0ABECEDA8E36E954679107C25545CDA /* XCStackTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4C8B1461D619ECA24925D367AFEEC451 /* FBAllocationTrackerGenerationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3CF3E8D78849C3C5A09B8E2519EA26 /* FBAllocationTrackerGenerationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4DF82289D87CCE08962DDB38385A527D /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE0798D45D4DBAD9D1821E8A4591AF2 /* UIButton+AFNetworking.m */; };
-		4E37772B9AA51E873A3A2A17987773BF /* XCHostUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4F59E288FB45E33AA8B2243B9F50AE /* XCHostUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FF15F68A8231F73C3B33620604B577C /* XCMonitorAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 590F7D4CA449FD0F4FC64BBA55843AF9 /* XCMonitorAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		50FA7FB55AB0B6EE328F078F83953B88 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA0C2F51E6ADEDB4AD6551E9C6D1EA1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50FB44FCB2EDB9A42EA46C6D8FDB0F24 /* XCModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8603BB223057CB201FF032A8C20C50B /* XCModuleManager.m */; };
 		518A396CB50C7FEED189772BE833CEBE /* FBAllocationTrackerNSZombieSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2957B5EFBAD062D8B2280190427FBF2F /* FBAllocationTrackerNSZombieSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55CC1A48488D71D9D573541FFD9DF316 /* NSString+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 13458D8B9F1B2EEBE3B4B337168CC532 /* NSString+addition.m */; };
 		5CA4BF972E5149C07FF6797B2419DA69 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C785140D1F4362BD95EEA0A566EF87E4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		622EFD6D2100D9051D89920B9996B302 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E94F9ABA618D71B6E1F9791C7DA539 /* AFURLResponseSerialization.m */; };
-		65B95DDF2840314DCE1F42BC94BFB4C2 /* XCModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 316E07A007548239D748390D4C44B7C3 /* XCModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63F9995D23998602034C5EBA6781457B /* XCMonitorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A063D1E9ED1D3A48C82BE541457DE62 /* XCMonitorUtil.m */; };
 		66E4F66F6C7D19706C21F97C8121AFB4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DB2F8B054229466289172F7081C5B0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		67EFC3440D2A56D562FE6BEF79E0244D /* XCDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1194C77026340E126B5FEB66B255A808 /* XCDynamicLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C951D0CE573E65688FBEDF9CE999CB7 /* XCMonitorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E05CD17A8C0D49A0BA76792F08A58792 /* XCMonitorAlert.m */; };
+		6FF0B92E7671E78E36AFE49CB7925B9F /* XCMonitorSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F697B3DD1C54FF9DFC49F85C5AA54C /* XCMonitorSettingViewController.m */; };
+		709CCAAC3B90011E0C96875530DB1DBA /* XCMonitorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9F28BD6D9287CC5FDED4EBBB63E1A5 /* XCMonitorConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7530A33017DBC25959DE9B5643BD7597 /* NSString+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D0C9211FECEC05E3991BD81C0E13E2 /* NSString+addition.m */; };
 		7849CA8886BF558557A9248D6BDB02CC /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641EEDD304F61E9A478A3E8CABDD2C9 /* UIRefreshControl+AFNetworking.m */; };
 		7C2EA3131444E4FC36EDAF006A8E08A4 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E836B6B1EA4C40E5533703EFF8EDBC48 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80F1F2A4979A8701E62E902103F8B5EA /* XCMonitorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E61258094B2464712B4C26F65E7D06 /* XCMonitorConfig.m */; };
-		8473B8949EC025F0634721BB170C3C60 /* XCMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CB20B815F3A49ADE7A608F1BBFDC0 /* XCMonitor.m */; };
+		7CA669DC62B896632711FD238D9F1AF2 /* XCMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B60436FF05379B0F33C29C34867A736C /* XCMonitor.m */; };
+		7DEE694F1DEE458BF6978D48C47362B7 /* XCMonitorSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B63B0DE8593EB5D695573237EF8E17 /* XCMonitorSettingViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8141EA8EACC63B1218D57424E68424D7 /* XCTerminalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7E1891EF2F2E5A869B9EB007572C5D /* XCTerminalViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		820B7DA2FF9D25915E180DEC8D8A1B20 /* XCMonitorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AA5A271F02A4CC1B79E27401B1296A /* XCMonitorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8527C392C4672EA0DC765BF16B54862A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFFE97628ECF26B30B5FFF8E85F1B0 /* UIImageView+AFNetworking.m */; };
 		8A299FB00D3AFF3B1C761417CC91C58A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC05AD28A26F0BBD7735FB08753C4D /* AFURLSessionManager.m */; };
+		8A69B4CB58E38BF4F126BAE619F019A7 /* XCDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AE362A03DC0E0D2DB8A45CD5F450D0A7 /* XCDynamicLoader.m */; };
 		8B9B6F936EAD4802B58A3202994D1ECF /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 61435B9282A04433AF2F92B31BD0DDDF /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C1BF46C89BB8F8260A297F63DCBC4D0 /* XCMonitorDataAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2370A5EC90E5A70C905FE303C710F22D /* XCMonitorDataAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E8A49F559F4D41E255BC96F09450EB0 /* FBAllocationTrackerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E38082D5BA2F8938E6C6EF0F9D1ED6F /* FBAllocationTrackerImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		936E4FE9F9646A85F2DC916C0F3E24BE /* XCMonitorDynamicLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C771E8F29966B72E0D16173C6F1A8 /* XCMonitorDynamicLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		976D9F469F000556D9AC2DEFF662F000 /* XCModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FDAC90D809B15FC27A4590C06DBC61 /* XCModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		97F072B98DCD63BEF585A2FF7297BD74 /* Pods-TLMToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F443F4DDD5390F38F9A5997B0FC2C9 /* Pods-TLMToolKit_Tests-dummy.m */; };
-		9830B93F37D0E4AB22B4F317252F0E9F /* XCMonitorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA5BE991D9E04D1F2FE12824ABFF410 /* XCMonitorUtil.m */; };
-		9A8CA4B3C941F1E1E6C8C79569B78D1E /* XCUILagCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 457160EA0118294C79C1225FE1B3545E /* XCUILagCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9AF29A21D0C6238F4FD9F85A9C09D75D /* TLMToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D56037D03739CB5B2F01960605DB0 /* TLMToolKit-dummy.m */; };
+		9A4C15A099EEC06F36493D4F35674C72 /* XCMonitorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5A2CE296C46863B954BD7381547A3 /* XCMonitorLog.m */; };
 		9B343883F082BF15DB5B07B293A1750A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF99FDFD695B32ED75E5662BEA7E36 /* AFHTTPSessionManager.m */; };
+		9B65F6B7CCB87FA1B019C81BF75471BE /* TLMPerformanceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D61A731317FCAE32C77E55DD8EE616BC /* TLMPerformanceLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9CC6339630671E493CF7D34907B8131D /* FBAllocationTrackerHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 11210B4B88D852593D82AC657BA67E59 /* FBAllocationTrackerHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A21EADB3AAE9CA3562E94B6EFB6F6D48 /* XCMonitorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6347326E2F05A5501381975CB75FB9 /* XCMonitorLog.m */; };
-		A2F2BD8F8462CECAB0AF476F5A49E132 /* XCUILagCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A47080BEDEB7751A8ABC42BE03B8BF4 /* XCUILagCheck.m */; };
+		A34350BE256881B073E8C85E4F337D71 /* XCMonitorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0642909E3C6716E96A555352FF9F81DD /* XCMonitorUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5C7D257AAFB512208845FAD808E6073 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8AAC1CEDD15BB9CA58F6CEC3BA15B /* AFSecurityPolicy.m */; };
-		ABFE37346D1DB41DFE3A22358278D2C8 /* XCMonitorDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A9DD2DAC98FF596C02E366BE5B6BAA /* XCMonitorDynamicLoader.m */; };
 		B12FF21893CF093CBAEFC02246F810FA /* FBAllocationTrackerGeneration.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9B4EA21F9F0CB4696E376AE14E1CD82 /* FBAllocationTrackerGeneration.mm */; };
-		B14F56A7AD78DE84F096A2ACBF5527C5 /* NSString+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = B93829F9C66440058E4C03F310216814 /* NSString+addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B767976DC0755CA6946F0FD77D4230DD /* XCMonitorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E0CA6C26BBCD9B237D256CA4EA0DE0 /* XCMonitorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1DBEA54450C1D5CCCBD9B16CCD9C5A8 /* XCMonitorDataAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 225E07A6D7C0AB0C65551D1463078D0B /* XCMonitorDataAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC35455B950589C6694A8391C7EC3E23 /* FBAllocationTrackerSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = E777A2FAA325590C1D4FB1AEC45960A1 /* FBAllocationTrackerSummary.m */; };
 		BC356CA7A2CDC4DB2A64BDEBCD058DB3 /* NSObject+FBAllocationTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7265C69AF1BCE257E1532779DDB81B3 /* NSObject+FBAllocationTracker.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BEF1936F892A001EDC1A5259EDDF6477 /* XCTerminalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5676072B849E74405F76AD46135DE /* XCTerminalViewController.m */; };
+		BF535DC5445698833DBF1C6732F9DED2 /* XCBackgroundTaskCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 974F21A5ADD21689E4B1E7A6B3DED1F7 /* XCBackgroundTaskCheck.m */; };
+		BFB74E72112BEB6F8999C92B4D0B7BCA /* NSString+addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 058FC7B2AF5519F194FE3BFAFD6D7469 /* NSString+addition.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C1B02744C373E1833AA14262E18E8812 /* FBAllocationTrackerNSZombieSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D45F21B861F11AB142086DC5239DF35 /* FBAllocationTrackerNSZombieSupport.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C428C28B6AD54A22AB8D53A23F8A55D7 /* FBAllocationTrackerFunctors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4673F6E3414EE36010ADCE48B0416D49 /* FBAllocationTrackerFunctors.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4F436981FBAF80D096DDC9F106D8496 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2681E11A8834E3F38BFFD162BB89EFB /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C797CA7FE3ED3A684B27FEAC19688C4B /* XCHostUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4612D8CEF3B9C9257E7880AA63127F /* XCHostUtil.m */; };
-		CBD3144D052D276CF5A0F54D10763C38 /* XCModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 553AE064FA76BA6B3156FAA5CEE4445D /* XCModuleManager.m */; };
 		CE145B8A8873360D79264DEFFAA43D1D /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE1C840BEAAF7CE52AC7D811450058 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CE954D5AB7B9E31FF353B612ED4FEC3D /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A672D9104BD6A4B1967755E465A8044A /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CF82660E18B6F1A22164B5A7DE2BB563 /* FBAllocationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DAD830C51918ECA743838638FB01E8 /* FBAllocationTracker-dummy.m */; };
-		D260AA8EC3EDF28BFEEEC5927857CB2B /* XCMonitorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 937EE1D0B568738037194C4D68FA58C1 /* XCMonitorAlert.m */; };
 		D308822ED3D6ACB439BF8EC0A519D4B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EA2DD17C1FAC8EC35B3CF1DB1DE77 /* AFNetworkReachabilityManager.m */; };
 		D441DEEB7BC6F19A4BD742AFBEBF12C8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B615752ACFD2D91D2E58AE2A833CB3 /* AFURLRequestSerialization.m */; };
+		D5DC1B51E21685B174145DC8FC22B02D /* TLMToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FCF92AF8871F8B4AABD3D8830803F /* TLMToolKit-dummy.m */; };
 		DCE5269D5F72874AB8E9B1492095D6C1 /* FBAllocationTrackerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FCE3DADDE42FF9B848502DEEA283FA /* FBAllocationTrackerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3D366E054B23E596D74128394146A0E /* TLMPerformanceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA413B911DEE448D1255ADEBB24A23A /* TLMPerformanceLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4688A0C38FB19A524CC6D4D582D0477 /* XCMonitorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EA95627AD2E6C2E940EF3B87067F98 /* XCMonitorLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E4F6520932864609D53D8771DD173543 /* FBAllocationTrackerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF33C21DC76C117C61AF7316F52691B8 /* FBAllocationTrackerManager.mm */; };
 		E7A29FD264197E966B2F75F2F7844D48 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F972E5C47EDADC4B880E2B1FAD1132B4 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E994D57B938C34D143B59CBA714029EF /* XCBackgroundTaskCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCC2AD040C483759C92460A422CB6A0 /* XCBackgroundTaskCheck.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB73FD804880A9020FB9681579E96FD2 /* XCMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 617A8042AF473FC6572B9D740DB8BC7C /* XCMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA9F6530DBB0A770F47C104ADB64C7F3 /* XCMemoryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E75147F5526D0C305F99C09F2347B8 /* XCMemoryMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EC2E9780DD5B6574F32FB0E097459CFC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A4156ABAC8AD0BC541761CA81FFC2ECE /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F51DAB48B743AF3278269F2E62E271EE /* XCMonitorReport.h in Headers */ = {isa = PBXBuildFile; fileRef = A186291882A46CEC965BE5913F29A0CA /* XCMonitorReport.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6D6CD10F628465C93DA0AC570E094C3 /* FBAllocationTrackerSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BABEC5DDAE22B818DF08D516EBEF02F /* FBAllocationTrackerSummary.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F70F41EF72F7A20E8477C34B0C72B0BB /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0245DAC24A074EF52B8C9038E80D3DA /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F780F8B19F4968D18C49A4085DE7EDE7 /* XCMemoryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CAF775B7F76ADDEB58A87BFAE9385B /* XCMemoryMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA78F23F689AFCD71AC81E9DFCC0B090 /* XCDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F7B257E2078E14E107631630EEA92F /* XCDynamicLoader.m */; };
-		FB87F44FC183166BAB2CB3EED2774133 /* XCStackTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB28FE774E536B3D7063021A9AA2C2 /* XCStackTrack.m */; };
+		F91E397B8EE6C1866B6D954D3E8E5F2B /* XCMonitorDynamicLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD0CBD932D8A538C9C04B5B7FAE422 /* XCMonitorDynamicLoader.m */; };
 		FC2BEE5A649BD9ED667DC117524ED92E /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 200C2F5405EB528B5338ED7F66F42061 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCD0374C100AA863B3DC53AFDDE30F37 /* XCStackTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C750239C04B6585C70FD005C6D4C8 /* XCStackTrack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,122 +176,126 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FDAC90D809B15FC27A4590C06DBC61 /* XCModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCModuleManager.h; sourceTree = "<group>"; };
 		00FE1C840BEAAF7CE52AC7D811450058 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		02257F2AAC24F9D0597E9AA6FF14E870 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		04762DCB9A696F21A98E4001DE2E64A0 /* XCBackgroundTaskCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCBackgroundTaskCheck.h; sourceTree = "<group>"; };
 		04A6BA0ECBC851E9E20BC6D3B65AB459 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		04F8AAC1CEDD15BB9CA58F6CEC3BA15B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		058FC7B2AF5519F194FE3BFAFD6D7469 /* NSString+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+addition.h"; sourceTree = "<group>"; };
 		0641EEDD304F61E9A478A3E8CABDD2C9 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		07CB28FE774E536B3D7063021A9AA2C2 /* XCStackTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCStackTrack.m; sourceTree = "<group>"; };
+		0642909E3C6716E96A555352FF9F81DD /* XCMonitorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorUtil.h; sourceTree = "<group>"; };
 		0CA048C05A92B32C4CE5DA498F1D93E8 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
 		0CA0C2F51E6ADEDB4AD6551E9C6D1EA1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0D0FCF92AF8871F8B4AABD3D8830803F /* TLMToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMToolKit-dummy.m"; sourceTree = "<group>"; };
 		10D800F022B9B8EE751E379EC1787A94 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		10F379E34D9E8B2B7A29A5A11657735C /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		11210B4B88D852593D82AC657BA67E59 /* FBAllocationTrackerHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerHelpers.h; path = FBAllocationTracker/FBAllocationTrackerHelpers.h; sourceTree = "<group>"; };
-		1194C77026340E126B5FEB66B255A808 /* XCDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCDynamicLoader.h; sourceTree = "<group>"; };
-		13458D8B9F1B2EEBE3B4B337168CC532 /* NSString+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+addition.m"; sourceTree = "<group>"; };
 		134C7E63D84A1B5199163F852C26994D /* FBAllocationTrackerImpl.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAllocationTrackerImpl.mm; path = FBAllocationTracker/FBAllocationTrackerImpl.mm; sourceTree = "<group>"; };
-		1797C80705977F11E262007FDB258BD5 /* XCMonitorReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorReport.m; sourceTree = "<group>"; };
 		17CCFCEEC88A2F54948B0E397405795F /* PLCrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PLCrashReporter.xcconfig; sourceTree = "<group>"; };
-		189D56037D03739CB5B2F01960605DB0 /* TLMToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLMToolKit-dummy.m"; sourceTree = "<group>"; };
-		18E0CA6C26BBCD9B237D256CA4EA0DE0 /* XCMonitorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorHeader.h; sourceTree = "<group>"; };
 		1B01C4E1628FB2B9BBF31574F9D5342F /* libFBAllocationTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBAllocationTracker.a; path = libFBAllocationTracker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5495DCF3E857293401C97FE5AE56A6 /* Pods-TLMToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FCC2AD040C483759C92460A422CB6A0 /* XCBackgroundTaskCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCBackgroundTaskCheck.h; sourceTree = "<group>"; };
 		200C2F5405EB528B5338ED7F66F42061 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		20FD7C7D2A812C0C8FAF18B0196A9526 /* XCStackTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCStackTrack.h; sourceTree = "<group>"; };
+		225E07A6D7C0AB0C65551D1463078D0B /* XCMonitorDataAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorDataAdapter.h; sourceTree = "<group>"; };
 		22FB474D98E5296C0D91F49868F41D03 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		2370A5EC90E5A70C905FE303C710F22D /* XCMonitorDataAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorDataAdapter.h; sourceTree = "<group>"; };
 		23F8CF485ECBFBC7DD2D0D30068D0AAB /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		2957B5EFBAD062D8B2280190427FBF2F /* FBAllocationTrackerNSZombieSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerNSZombieSupport.h; path = FBAllocationTracker/Generations/FBAllocationTrackerNSZombieSupport.h; sourceTree = "<group>"; };
 		2B97AD90ABADA5325517985658DF07E4 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		2BABEC5DDAE22B818DF08D516EBEF02F /* FBAllocationTrackerSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerSummary.h; path = FBAllocationTracker/FBAllocationTrackerSummary.h; sourceTree = "<group>"; };
 		2C30939E41CDAA4749B3B9D4A3082963 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		316E07A007548239D748390D4C44B7C3 /* XCModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCModuleManager.h; sourceTree = "<group>"; };
+		354C771E8F29966B72E0D16173C6F1A8 /* XCMonitorDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorDynamicLoader.h; sourceTree = "<group>"; };
 		385ADA03428767DE6E72A27B861EA3C9 /* libPods-TLMToolKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TLMToolKit_Tests.a"; path = "libPods-TLMToolKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A2EFF691014B89D0EB219B20B08E63 /* FBAllocationTrackerGeneration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerGeneration.h; path = FBAllocationTracker/Generations/FBAllocationTrackerGeneration.h; sourceTree = "<group>"; };
 		3C3EA2DD17C1FAC8EC35B3CF1DB1DE77 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3C59F1E344E3C98E2378A2F2BE0F48FF /* XCMonitorConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorConfig.m; sourceTree = "<group>"; };
+		41E75147F5526D0C305F99C09F2347B8 /* XCMemoryMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMemoryMonitor.h; sourceTree = "<group>"; };
 		41FCE3DADDE42FF9B848502DEEA283FA /* FBAllocationTrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerManager.h; path = FBAllocationTracker/FBAllocationTrackerManager.h; sourceTree = "<group>"; };
-		457160EA0118294C79C1225FE1B3545E /* XCUILagCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCUILagCheck.h; sourceTree = "<group>"; };
-		45CE65AC0DD566E8B77B821D9DE88A1E /* XCMonitorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorUtil.h; sourceTree = "<group>"; };
 		4673F6E3414EE36010ADCE48B0416D49 /* FBAllocationTrackerFunctors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerFunctors.h; path = FBAllocationTracker/FBAllocationTrackerFunctors.h; sourceTree = "<group>"; };
+		47EA95627AD2E6C2E940EF3B87067F98 /* XCMonitorLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorLog.h; sourceTree = "<group>"; };
+		48AA2A84A9DEFE86F72D1591E3033736 /* TLMToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-prefix.pch"; sourceTree = "<group>"; };
+		4A583E72D99CAC873A48FDB51A676EAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4D7C750239C04B6585C70FD005C6D4C8 /* XCStackTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCStackTrack.m; sourceTree = "<group>"; };
 		4DB992373F53EAA384B6FC5D14E34456 /* Pods-TLMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4DFFFE97628ECF26B30B5FFF8E85F1B0 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		50FEFC740F2A91F0A66B177043A7EF02 /* XCMonitorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorConfig.h; sourceTree = "<group>"; };
 		51382E527CA1A90ECC6D50A8DD7512AE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		553AE064FA76BA6B3156FAA5CEE4445D /* XCModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCModuleManager.m; sourceTree = "<group>"; };
 		56F3581BD363472027E78A42739EC2B9 /* Pods-TLMToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57A9DD2DAC98FF596C02E366BE5B6BAA /* XCMonitorDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorDynamicLoader.m; sourceTree = "<group>"; };
+		590F7D4CA449FD0F4FC64BBA55843AF9 /* XCMonitorAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorAlert.h; sourceTree = "<group>"; };
 		5EE0798D45D4DBAD9D1821E8A4591AF2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		60E94F9ABA618D71B6E1F9791C7DA539 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		61435B9282A04433AF2F92B31BD0DDDF /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		617A8042AF473FC6572B9D740DB8BC7C /* XCMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitor.h; sourceTree = "<group>"; };
 		63DF99FDFD695B32ED75E5662BEA7E36 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		6457910EDE8C41C23B2137740F585CB3 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		667BB14E75DACFEA4E488E931026B33A /* Pods-TLMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6A1B0A163A57E2C2819952E59B0A7CF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70CD0CBD932D8A538C9C04B5B7FAE422 /* XCMonitorDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorDynamicLoader.m; sourceTree = "<group>"; };
 		71974AB919751CA67A0ACDFA6903910D /* FBAllocationTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBAllocationTracker-prefix.pch"; sourceTree = "<group>"; };
 		71FB8E6228EBEFB91EB741B5DCA96519 /* Pods-TLMToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLMToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7DBF8743FCE0C2236F1CDE680E41E0B5 /* TLMToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMToolKit.xcconfig; sourceTree = "<group>"; };
+		73921CBCA13E72C6DC30FA4946AE8538 /* XCMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitor.h; sourceTree = "<group>"; };
+		73F697B3DD1C54FF9DFC49F85C5AA54C /* XCMonitorSettingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorSettingViewController.m; sourceTree = "<group>"; };
 		7E38082D5BA2F8938E6C6EF0F9D1ED6F /* FBAllocationTrackerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerImpl.h; path = FBAllocationTracker/FBAllocationTrackerImpl.h; sourceTree = "<group>"; };
-		809F2F8DE71F8D14A856D6E49B767CCF /* XCMemoryMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMemoryMonitor.m; sourceTree = "<group>"; };
-		80CAF775B7F76ADDEB58A87BFAE9385B /* XCMemoryMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMemoryMonitor.h; sourceTree = "<group>"; };
 		84D04FEF41DEDFE94F83222C96D77512 /* Pods-TLMToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		8720AC9960AD5306293FFD1217491CAA /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		87DF924CE2A73FA6F62505F19DC658F3 /* XCDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCDynamicLoader.h; sourceTree = "<group>"; };
 		88F443F4DDD5390F38F9A5997B0FC2C9 /* Pods-TLMToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLMToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		89DB2F8B054229466289172F7081C5B0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		8C6F0293F003101164D6E3ED34EA44FE /* TLMToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLMToolKit-prefix.pch"; sourceTree = "<group>"; };
-		8DA413B911DEE448D1255ADEBB24A23A /* TLMPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLMPerformanceLogger.h; sourceTree = "<group>"; };
-		8E1CBD260438253168B7914C47C7E94D /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8F04D0A068AFC17443AE84B96DABF2BC /* XCMonitorAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorAlert.h; sourceTree = "<group>"; };
-		930B4C00B75E408D4E33BA0F4A833FF6 /* XCMonitorLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorLog.h; sourceTree = "<group>"; };
-		937EE1D0B568738037194C4D68FA58C1 /* XCMonitorAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorAlert.m; sourceTree = "<group>"; };
+		90D0C9211FECEC05E3991BD81C0E13E2 /* NSString+addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+addition.m"; sourceTree = "<group>"; };
+		91F6B92435709AA93D1AA7AE7173A3D1 /* TLMToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLMToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92F5676072B849E74405F76AD46135DE /* XCTerminalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCTerminalViewController.m; sourceTree = "<group>"; };
+		974F21A5ADD21689E4B1E7A6B3DED1F7 /* XCBackgroundTaskCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCBackgroundTaskCheck.m; sourceTree = "<group>"; };
 		98688F10FE59DD913C7A650B6A59D732 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		9A47080BEDEB7751A8ABC42BE03B8BF4 /* XCUILagCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCUILagCheck.m; sourceTree = "<group>"; };
+		9A063D1E9ED1D3A48C82BE541457DE62 /* XCMonitorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorUtil.m; sourceTree = "<group>"; };
+		9BDF1B723CF43D16C54985A6DC43B52F /* TLMToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLMToolKit.xcconfig; sourceTree = "<group>"; };
 		9D45F21B861F11AB142086DC5239DF35 /* FBAllocationTrackerNSZombieSupport.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAllocationTrackerNSZombieSupport.mm; path = FBAllocationTracker/Generations/FBAllocationTrackerNSZombieSupport.mm; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7A29F41EC9E85B0F8CDA2284412B15 /* FBAllocationTrackerGenerationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAllocationTrackerGenerationManager.mm; path = FBAllocationTracker/Generations/FBAllocationTrackerGenerationManager.mm; sourceTree = "<group>"; };
+		A186291882A46CEC965BE5913F29A0CA /* XCMonitorReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorReport.h; sourceTree = "<group>"; };
+		A36739D580BDDD337A182C0996F9FFEA /* XCMemoryMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMemoryMonitor.m; sourceTree = "<group>"; };
 		A4156ABAC8AD0BC541761CA81FFC2ECE /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		A672D9104BD6A4B1967755E465A8044A /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		A7265C69AF1BCE257E1532779DDB81B3 /* NSObject+FBAllocationTracker.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSObject+FBAllocationTracker.mm"; path = "FBAllocationTracker/NSObject+FBAllocationTracker.mm"; sourceTree = "<group>"; };
 		AA878A2629DB0881B9483733D234DCED /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB89652253DF81A8543D88977396C655 /* XCBackgroundTaskCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCBackgroundTaskCheck.m; sourceTree = "<group>"; };
+		AE362A03DC0E0D2DB8A45CD5F450D0A7 /* XCDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCDynamicLoader.m; sourceTree = "<group>"; };
 		AF33C21DC76C117C61AF7316F52691B8 /* FBAllocationTrackerManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAllocationTrackerManager.mm; path = FBAllocationTracker/FBAllocationTrackerManager.mm; sourceTree = "<group>"; };
 		B0DF2598BF077558581F76D6F08CA2B0 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		B2E5A2CE296C46863B954BD7381547A3 /* XCMonitorLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorLog.m; sourceTree = "<group>"; };
 		B44A88CB8BEAECA716EAC87DD5D3E306 /* Pods-TLMToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B60436FF05379B0F33C29C34867A736C /* XCMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitor.m; sourceTree = "<group>"; };
+		B6C58DC606DF398B199D39F1EDDDD3FA /* XCHostUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCHostUtil.m; sourceTree = "<group>"; };
 		B6D0A8FC3F73DB3B313617E87F47A2B6 /* Pods-TLMToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLMToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7EC05AD28A26F0BBD7735FB08753C4D /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		B87A436D074A83BF89B095E3DBAA87A2 /* Pods-TLMToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLMToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B93829F9C66440058E4C03F310216814 /* NSString+addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+addition.h"; sourceTree = "<group>"; };
 		BD681A36CB3B18921A0003BCEE8E34CE /* FBAllocationTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAllocationTracker.xcconfig; sourceTree = "<group>"; };
-		BF6347326E2F05A5501381975CB75FB9 /* XCMonitorLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorLog.m; sourceTree = "<group>"; };
 		BF963717D62155A4694CCDC9724E3DC4 /* NSObject+FBAllocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBAllocationTracker.h"; path = "FBAllocationTracker/NSObject+FBAllocationTracker.h"; sourceTree = "<group>"; };
+		BFA372008C8D2065B126FE350E84A07C /* TLMPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TLMPerformanceLogger.m; sourceTree = "<group>"; };
 		C0643DA1F1CF3DF8C1B37034B63E7FC8 /* FBAllocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTracker.h; path = FBAllocationTracker/FBAllocationTracker.h; sourceTree = "<group>"; };
 		C2681E11A8834E3F38BFFD162BB89EFB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C3B63B0DE8593EB5D695573237EF8E17 /* XCMonitorSettingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorSettingViewController.h; sourceTree = "<group>"; };
+		C54BA810A95F4E464FD29A83C681FC3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C5AA5A271F02A4CC1B79E27401B1296A /* XCMonitorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorHeader.h; sourceTree = "<group>"; };
 		C785140D1F4362BD95EEA0A566EF87E4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		C9B4EA21F9F0CB4696E376AE14E1CD82 /* FBAllocationTrackerGeneration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAllocationTrackerGeneration.mm; path = FBAllocationTracker/Generations/FBAllocationTrackerGeneration.mm; sourceTree = "<group>"; };
-		CA56762AD89E4118B7D1C09E297F6377 /* TLMPerformanceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TLMPerformanceLogger.m; sourceTree = "<group>"; };
 		CCEC36EDD5090EAA8DA1D0F7465A40DD /* libPods-TLMToolKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TLMToolKit_Example.a"; path = "libPods-TLMToolKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE371CF6F0EB7937D7F2142E65D17075 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		CE4F59E288FB45E33AA8B2243B9F50AE /* XCHostUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCHostUtil.h; sourceTree = "<group>"; };
 		CFEAF2B138BECFAAD680C1367795B19A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		D35E199B91329C0AC550925D7B1F4D05 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D4E61258094B2464712B4C26F65E7D06 /* XCMonitorConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorConfig.m; sourceTree = "<group>"; };
+		D353DF696657BC9C15EE939FE1F07BA5 /* XCHostUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCHostUtil.h; sourceTree = "<group>"; };
+		D61A731317FCAE32C77E55DD8EE616BC /* TLMPerformanceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TLMPerformanceLogger.h; sourceTree = "<group>"; };
 		D8DAD830C51918ECA743838638FB01E8 /* FBAllocationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBAllocationTracker-dummy.m"; sourceTree = "<group>"; };
-		DC4612D8CEF3B9C9257E7880AA63127F /* XCHostUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCHostUtil.m; sourceTree = "<group>"; };
-		DCA5BE991D9E04D1F2FE12824ABFF410 /* XCMonitorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorUtil.m; sourceTree = "<group>"; };
 		DEC3D2A7B3CBCE470140F5874D87FEC6 /* FBAllocationTrackerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerDefines.h; path = FBAllocationTracker/FBAllocationTrackerDefines.h; sourceTree = "<group>"; };
 		E0245DAC24A074EF52B8C9038E80D3DA /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E05CD17A8C0D49A0BA76792F08A58792 /* XCMonitorAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorAlert.m; sourceTree = "<group>"; };
 		E777A2FAA325590C1D4FB1AEC45960A1 /* FBAllocationTrackerSummary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBAllocationTrackerSummary.m; path = FBAllocationTracker/FBAllocationTrackerSummary.m; sourceTree = "<group>"; };
 		E836B6B1EA4C40E5533703EFF8EDBC48 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		E9B615752ACFD2D91D2E58AE2A833CB3 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		EBC665EE47FC4D82AB342B7D5E041CC7 /* libTLMToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTLMToolKit.a; path = libTLMToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3CF3E8D78849C3C5A09B8E2519EA26 /* FBAllocationTrackerGenerationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAllocationTrackerGenerationManager.h; path = FBAllocationTracker/Generations/FBAllocationTrackerGenerationManager.h; sourceTree = "<group>"; };
-		EDEA92B833DB96660CA8DA9D08846615 /* XCMonitorDynamicLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorDynamicLoader.h; sourceTree = "<group>"; };
-		F0ABECEDA8E36E954679107C25545CDA /* XCStackTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCStackTrack.h; sourceTree = "<group>"; };
-		F0F7B257E2078E14E107631630EEA92F /* XCDynamicLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCDynamicLoader.m; sourceTree = "<group>"; };
-		F64CB20B815F3A49ADE7A608F1BBFDC0 /* XCMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitor.m; sourceTree = "<group>"; };
+		F272B6DC3EC111ADDF695FE7BC09000B /* XCUILagCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCUILagCheck.m; sourceTree = "<group>"; };
 		F78B84CB72175266CC30446AEADE7336 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		F96CD41A76561AA53612A8DBCBAAF029 /* XCMonitorReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorReport.h; sourceTree = "<group>"; };
+		F8603BB223057CB201FF032A8C20C50B /* XCModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCModuleManager.m; sourceTree = "<group>"; };
 		F972E5C47EDADC4B880E2B1FAD1132B4 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		FC7E1891EF2F2E5A869B9EB007572C5D /* XCTerminalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCTerminalViewController.h; sourceTree = "<group>"; };
+		FD9F28BD6D9287CC5FDED4EBBB63E1A5 /* XCMonitorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCMonitorConfig.h; sourceTree = "<group>"; };
+		FE6A7813730737A28CCD685A203738A9 /* XCUILagCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCUILagCheck.h; sourceTree = "<group>"; };
+		FE8F3DA044F3DCD8A358987DBB88B5F2 /* XCMonitorReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XCMonitorReport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,24 +438,57 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		521C54BFA30FAF7F835CED47CB1EFF9B /* TLMToolKit */ = {
+		4EA44ED0DAE71AD32EE954D13F3695D1 /* TLMMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				83E4F2EF27734CDA0F80B2069C3C6757 /* Pod */,
-				EAAE3963E9B98F85F301C8539DD24FFF /* Support Files */,
-				65E5B238E40DB2BC6DF1FE047ED1788F /* TLMLogger */,
-				86DFEB38EDA9AB0471DBC4FF633C9151 /* TLMMonitor */,
-				6F534ACDCCCC7C5B0C90D0F28E07C633 /* TLMNetwork */,
-				5BC00E8DA79876C5F7D85B21A10EFB22 /* TLMRegisterInitFunc */,
+				04762DCB9A696F21A98E4001DE2E64A0 /* XCBackgroundTaskCheck.h */,
+				974F21A5ADD21689E4B1E7A6B3DED1F7 /* XCBackgroundTaskCheck.m */,
+				41E75147F5526D0C305F99C09F2347B8 /* XCMemoryMonitor.h */,
+				A36739D580BDDD337A182C0996F9FFEA /* XCMemoryMonitor.m */,
+				73921CBCA13E72C6DC30FA4946AE8538 /* XCMonitor.h */,
+				B60436FF05379B0F33C29C34867A736C /* XCMonitor.m */,
+				590F7D4CA449FD0F4FC64BBA55843AF9 /* XCMonitorAlert.h */,
+				E05CD17A8C0D49A0BA76792F08A58792 /* XCMonitorAlert.m */,
+				FD9F28BD6D9287CC5FDED4EBBB63E1A5 /* XCMonitorConfig.h */,
+				3C59F1E344E3C98E2378A2F2BE0F48FF /* XCMonitorConfig.m */,
+				225E07A6D7C0AB0C65551D1463078D0B /* XCMonitorDataAdapter.h */,
+				354C771E8F29966B72E0D16173C6F1A8 /* XCMonitorDynamicLoader.h */,
+				70CD0CBD932D8A538C9C04B5B7FAE422 /* XCMonitorDynamicLoader.m */,
+				C5AA5A271F02A4CC1B79E27401B1296A /* XCMonitorHeader.h */,
+				47EA95627AD2E6C2E940EF3B87067F98 /* XCMonitorLog.h */,
+				B2E5A2CE296C46863B954BD7381547A3 /* XCMonitorLog.m */,
+				A186291882A46CEC965BE5913F29A0CA /* XCMonitorReport.h */,
+				FE8F3DA044F3DCD8A358987DBB88B5F2 /* XCMonitorReport.m */,
+				C3B63B0DE8593EB5D695573237EF8E17 /* XCMonitorSettingViewController.h */,
+				73F697B3DD1C54FF9DFC49F85C5AA54C /* XCMonitorSettingViewController.m */,
+				0642909E3C6716E96A555352FF9F81DD /* XCMonitorUtil.h */,
+				9A063D1E9ED1D3A48C82BE541457DE62 /* XCMonitorUtil.m */,
+				20FD7C7D2A812C0C8FAF18B0196A9526 /* XCStackTrack.h */,
+				4D7C750239C04B6585C70FD005C6D4C8 /* XCStackTrack.m */,
+				FC7E1891EF2F2E5A869B9EB007572C5D /* XCTerminalViewController.h */,
+				92F5676072B849E74405F76AD46135DE /* XCTerminalViewController.m */,
+				FE6A7813730737A28CCD685A203738A9 /* XCUILagCheck.h */,
+				F272B6DC3EC111ADDF695FE7BC09000B /* XCUILagCheck.m */,
 			);
-			name = TLMToolKit;
-			path = ../..;
+			name = TLMMonitor;
+			path = TLMToolKit/TLMMonitor;
+			sourceTree = "<group>";
+		};
+		503152247E21C516D408C992E8EE5140 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF1B723CF43D16C54985A6DC43B52F /* TLMToolKit.xcconfig */,
+				0D0FCF92AF8871F8B4AABD3D8830803F /* TLMToolKit-dummy.m */,
+				48AA2A84A9DEFE86F72D1591E3033736 /* TLMToolKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLMToolKit";
 			sourceTree = "<group>";
 		};
 		53C67FDFDB1B86C87194B2C5F61A18B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				521C54BFA30FAF7F835CED47CB1EFF9B /* TLMToolKit */,
+				F69427F46FED0B72A4C8A0B7F5F44C60 /* TLMToolKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -488,40 +529,6 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		5BC00E8DA79876C5F7D85B21A10EFB22 /* TLMRegisterInitFunc */ = {
-			isa = PBXGroup;
-			children = (
-				1194C77026340E126B5FEB66B255A808 /* XCDynamicLoader.h */,
-				F0F7B257E2078E14E107631630EEA92F /* XCDynamicLoader.m */,
-				316E07A007548239D748390D4C44B7C3 /* XCModuleManager.h */,
-				553AE064FA76BA6B3156FAA5CEE4445D /* XCModuleManager.m */,
-			);
-			name = TLMRegisterInitFunc;
-			path = TLMToolKit/TLMRegisterInitFunc;
-			sourceTree = "<group>";
-		};
-		65E5B238E40DB2BC6DF1FE047ED1788F /* TLMLogger */ = {
-			isa = PBXGroup;
-			children = (
-				8DA413B911DEE448D1255ADEBB24A23A /* TLMPerformanceLogger.h */,
-				CA56762AD89E4118B7D1C09E297F6377 /* TLMPerformanceLogger.m */,
-			);
-			name = TLMLogger;
-			path = TLMToolKit/TLMLogger;
-			sourceTree = "<group>";
-		};
-		6F534ACDCCCC7C5B0C90D0F28E07C633 /* TLMNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				B93829F9C66440058E4C03F310216814 /* NSString+addition.h */,
-				13458D8B9F1B2EEBE3B4B337168CC532 /* NSString+addition.m */,
-				CE4F59E288FB45E33AA8B2243B9F50AE /* XCHostUtil.h */,
-				DC4612D8CEF3B9C9257E7880AA63127F /* XCHostUtil.m */,
-			);
-			name = TLMNetwork;
-			path = TLMToolKit/TLMNetwork;
-			sourceTree = "<group>";
-		};
 		7203F05125538155E67E3EFBE2614455 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,46 +561,14 @@
 			path = PLCrashReporter;
 			sourceTree = "<group>";
 		};
-		83E4F2EF27734CDA0F80B2069C3C6757 /* Pod */ = {
+		88991C413AB161F86F06901EB15918B1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D35E199B91329C0AC550925D7B1F4D05 /* LICENSE */,
-				6A1B0A163A57E2C2819952E59B0A7CF1 /* README.md */,
-				8E1CBD260438253168B7914C47C7E94D /* TLMToolKit.podspec */,
+				C54BA810A95F4E464FD29A83C681FC3A /* LICENSE */,
+				4A583E72D99CAC873A48FDB51A676EAD /* README.md */,
+				91F6B92435709AA93D1AA7AE7173A3D1 /* TLMToolKit.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		86DFEB38EDA9AB0471DBC4FF633C9151 /* TLMMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1FCC2AD040C483759C92460A422CB6A0 /* XCBackgroundTaskCheck.h */,
-				AB89652253DF81A8543D88977396C655 /* XCBackgroundTaskCheck.m */,
-				80CAF775B7F76ADDEB58A87BFAE9385B /* XCMemoryMonitor.h */,
-				809F2F8DE71F8D14A856D6E49B767CCF /* XCMemoryMonitor.m */,
-				617A8042AF473FC6572B9D740DB8BC7C /* XCMonitor.h */,
-				F64CB20B815F3A49ADE7A608F1BBFDC0 /* XCMonitor.m */,
-				8F04D0A068AFC17443AE84B96DABF2BC /* XCMonitorAlert.h */,
-				937EE1D0B568738037194C4D68FA58C1 /* XCMonitorAlert.m */,
-				50FEFC740F2A91F0A66B177043A7EF02 /* XCMonitorConfig.h */,
-				D4E61258094B2464712B4C26F65E7D06 /* XCMonitorConfig.m */,
-				2370A5EC90E5A70C905FE303C710F22D /* XCMonitorDataAdapter.h */,
-				EDEA92B833DB96660CA8DA9D08846615 /* XCMonitorDynamicLoader.h */,
-				57A9DD2DAC98FF596C02E366BE5B6BAA /* XCMonitorDynamicLoader.m */,
-				18E0CA6C26BBCD9B237D256CA4EA0DE0 /* XCMonitorHeader.h */,
-				930B4C00B75E408D4E33BA0F4A833FF6 /* XCMonitorLog.h */,
-				BF6347326E2F05A5501381975CB75FB9 /* XCMonitorLog.m */,
-				F96CD41A76561AA53612A8DBCBAAF029 /* XCMonitorReport.h */,
-				1797C80705977F11E262007FDB258BD5 /* XCMonitorReport.m */,
-				45CE65AC0DD566E8B77B821D9DE88A1E /* XCMonitorUtil.h */,
-				DCA5BE991D9E04D1F2FE12824ABFF410 /* XCMonitorUtil.m */,
-				F0ABECEDA8E36E954679107C25545CDA /* XCStackTrack.h */,
-				07CB28FE774E536B3D7063021A9AA2C2 /* XCStackTrack.m */,
-				457160EA0118294C79C1225FE1B3545E /* XCUILagCheck.h */,
-				9A47080BEDEB7751A8ABC42BE03B8BF4 /* XCUILagCheck.m */,
-			);
-			name = TLMMonitor;
-			path = TLMToolKit/TLMMonitor;
 			sourceTree = "<group>";
 		};
 		A0B0086506D5F63EA79CE7EFD7F4EE6D /* Frameworks */ = {
@@ -602,6 +577,18 @@
 				0CA048C05A92B32C4CE5DA498F1D93E8 /* CrashReporter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BF748088D2762E7ECCF36E4360FF76 /* TLMNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				058FC7B2AF5519F194FE3BFAFD6D7469 /* NSString+addition.h */,
+				90D0C9211FECEC05E3991BD81C0E13E2 /* NSString+addition.m */,
+				D353DF696657BC9C15EE939FE1F07BA5 /* XCHostUtil.h */,
+				B6C58DC606DF398B199D39F1EDDDD3FA /* XCHostUtil.m */,
+			);
+			name = TLMNetwork;
+			path = TLMToolKit/TLMNetwork;
 			sourceTree = "<group>";
 		};
 		A8A06419FBDE3D8C9EC29C4EEE6EC5FE /* Products */ = {
@@ -662,45 +649,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAAE3963E9B98F85F301C8539DD24FFF /* Support Files */ = {
+		EFB5F7400829910DC725E83E0EB06DDF /* TLMLogger */ = {
 			isa = PBXGroup;
 			children = (
-				7DBF8743FCE0C2236F1CDE680E41E0B5 /* TLMToolKit.xcconfig */,
-				189D56037D03739CB5B2F01960605DB0 /* TLMToolKit-dummy.m */,
-				8C6F0293F003101164D6E3ED34EA44FE /* TLMToolKit-prefix.pch */,
+				D61A731317FCAE32C77E55DD8EE616BC /* TLMPerformanceLogger.h */,
+				BFA372008C8D2065B126FE350E84A07C /* TLMPerformanceLogger.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLMToolKit";
+			name = TLMLogger;
+			path = TLMToolKit/TLMLogger;
+			sourceTree = "<group>";
+		};
+		F69427F46FED0B72A4C8A0B7F5F44C60 /* TLMToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				88991C413AB161F86F06901EB15918B1 /* Pod */,
+				503152247E21C516D408C992E8EE5140 /* Support Files */,
+				EFB5F7400829910DC725E83E0EB06DDF /* TLMLogger */,
+				4EA44ED0DAE71AD32EE954D13F3695D1 /* TLMMonitor */,
+				A5BF748088D2762E7ECCF36E4360FF76 /* TLMNetwork */,
+				FF1489AA0D007B6B915C34FCEEF47266 /* TLMRegisterInitFunc */,
+			);
+			name = TLMToolKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FF1489AA0D007B6B915C34FCEEF47266 /* TLMRegisterInitFunc */ = {
+			isa = PBXGroup;
+			children = (
+				87DF924CE2A73FA6F62505F19DC658F3 /* XCDynamicLoader.h */,
+				AE362A03DC0E0D2DB8A45CD5F450D0A7 /* XCDynamicLoader.m */,
+				00FDAC90D809B15FC27A4590C06DBC61 /* XCModuleManager.h */,
+				F8603BB223057CB201FF032A8C20C50B /* XCModuleManager.m */,
+			);
+			name = TLMRegisterInitFunc;
+			path = TLMToolKit/TLMRegisterInitFunc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C94F7378E0764D453C2D4FA02C1E623 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B14F56A7AD78DE84F096A2ACBF5527C5 /* NSString+addition.h in Headers */,
-				E3D366E054B23E596D74128394146A0E /* TLMPerformanceLogger.h in Headers */,
-				E994D57B938C34D143B59CBA714029EF /* XCBackgroundTaskCheck.h in Headers */,
-				67EFC3440D2A56D562FE6BEF79E0244D /* XCDynamicLoader.h in Headers */,
-				4E37772B9AA51E873A3A2A17987773BF /* XCHostUtil.h in Headers */,
-				F780F8B19F4968D18C49A4085DE7EDE7 /* XCMemoryMonitor.h in Headers */,
-				65B95DDF2840314DCE1F42BC94BFB4C2 /* XCModuleManager.h in Headers */,
-				EB73FD804880A9020FB9681579E96FD2 /* XCMonitor.h in Headers */,
-				197156E25EC470C60F517DEBCC85AF1C /* XCMonitorAlert.h in Headers */,
-				3633A38070F9558B9B0065EA9D267FAC /* XCMonitorConfig.h in Headers */,
-				8C1BF46C89BB8F8260A297F63DCBC4D0 /* XCMonitorDataAdapter.h in Headers */,
-				188943282C3E7742C54907A531F34F3B /* XCMonitorDynamicLoader.h in Headers */,
-				B767976DC0755CA6946F0FD77D4230DD /* XCMonitorHeader.h in Headers */,
-				06A3132674F88D8DA35B8D8D04F43083 /* XCMonitorLog.h in Headers */,
-				3D3733DAB4C62F8676FBF639F1C4100F /* XCMonitorReport.h in Headers */,
-				05364EAEB6FACCC027955520CBB9C60C /* XCMonitorUtil.h in Headers */,
-				4BF96EFE5842AF8D3093BA9E04EAB53B /* XCStackTrack.h in Headers */,
-				9A8CA4B3C941F1E1E6C8C79569B78D1E /* XCUILagCheck.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1CD0903BC6DDEB2DFB0320FC2BD75298 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,6 +717,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A0B6CA1704B8C5F209F04E668F6EC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB74E72112BEB6F8999C92B4D0B7BCA /* NSString+addition.h in Headers */,
+				9B65F6B7CCB87FA1B019C81BF75471BE /* TLMPerformanceLogger.h in Headers */,
+				0C2C6FC6F4AFFB944C3ADA6B62918FE0 /* XCBackgroundTaskCheck.h in Headers */,
+				2B0CEE6FCA973568A2F3B7CD15733DF2 /* XCDynamicLoader.h in Headers */,
+				310DAF0C55F806D7B8AF07F7A02A493A /* XCHostUtil.h in Headers */,
+				EA9F6530DBB0A770F47C104ADB64C7F3 /* XCMemoryMonitor.h in Headers */,
+				976D9F469F000556D9AC2DEFF662F000 /* XCModuleManager.h in Headers */,
+				481DEB020CF22C53729067549B998430 /* XCMonitor.h in Headers */,
+				4FF15F68A8231F73C3B33620604B577C /* XCMonitorAlert.h in Headers */,
+				709CCAAC3B90011E0C96875530DB1DBA /* XCMonitorConfig.h in Headers */,
+				B1DBEA54450C1D5CCCBD9B16CCD9C5A8 /* XCMonitorDataAdapter.h in Headers */,
+				936E4FE9F9646A85F2DC916C0F3E24BE /* XCMonitorDynamicLoader.h in Headers */,
+				820B7DA2FF9D25915E180DEC8D8A1B20 /* XCMonitorHeader.h in Headers */,
+				E4688A0C38FB19A524CC6D4D582D0477 /* XCMonitorLog.h in Headers */,
+				F51DAB48B743AF3278269F2E62E271EE /* XCMonitorReport.h in Headers */,
+				7DEE694F1DEE458BF6978D48C47362B7 /* XCMonitorSettingViewController.h in Headers */,
+				A34350BE256881B073E8C85E4F337D71 /* XCMonitorUtil.h in Headers */,
+				08394D51CD8FC5AD106D360DAFFE740D /* XCStackTrack.h in Headers */,
+				8141EA8EACC63B1218D57424E68424D7 /* XCTerminalViewController.h in Headers */,
+				38BF3CBE058993519A84BE074C1CE30C /* XCUILagCheck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,8 +853,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11319DDCCCF6B56EC5D548B47D991FA /* Build configuration list for PBXNativeTarget "TLMToolKit" */;
 			buildPhases = (
-				0C94F7378E0764D453C2D4FA02C1E623 /* Headers */,
-				B172A7656EE47FBFC79EB59EED090253 /* Sources */,
+				74A0B6CA1704B8C5F209F04E668F6EC2 /* Headers */,
+				35E8CE8791F7D678365AB81B86016247 /* Sources */,
 				A675C6D34570317468880DE18B57F4B0 /* Frameworks */,
 			);
 			buildRules = (
@@ -887,6 +901,32 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		35E8CE8791F7D678365AB81B86016247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7530A33017DBC25959DE9B5643BD7597 /* NSString+addition.m in Sources */,
+				01C2E0245FEEA6CC85D73607103F3A57 /* TLMPerformanceLogger.m in Sources */,
+				D5DC1B51E21685B174145DC8FC22B02D /* TLMToolKit-dummy.m in Sources */,
+				BF535DC5445698833DBF1C6732F9DED2 /* XCBackgroundTaskCheck.m in Sources */,
+				8A69B4CB58E38BF4F126BAE619F019A7 /* XCDynamicLoader.m in Sources */,
+				11BD2073379F9909C147B5168EA6AF7A /* XCHostUtil.m in Sources */,
+				1A9E47678FCF28EEE894A5AD243A6F00 /* XCMemoryMonitor.m in Sources */,
+				50FB44FCB2EDB9A42EA46C6D8FDB0F24 /* XCModuleManager.m in Sources */,
+				7CA669DC62B896632711FD238D9F1AF2 /* XCMonitor.m in Sources */,
+				6C951D0CE573E65688FBEDF9CE999CB7 /* XCMonitorAlert.m in Sources */,
+				146684083A25A49B95FA7BBB86DED603 /* XCMonitorConfig.m in Sources */,
+				F91E397B8EE6C1866B6D954D3E8E5F2B /* XCMonitorDynamicLoader.m in Sources */,
+				9A4C15A099EEC06F36493D4F35674C72 /* XCMonitorLog.m in Sources */,
+				45DA05D57A75EE9094C753F20334E526 /* XCMonitorReport.m in Sources */,
+				6FF0B92E7671E78E36AFE49CB7925B9F /* XCMonitorSettingViewController.m in Sources */,
+				63F9995D23998602034C5EBA6781457B /* XCMonitorUtil.m in Sources */,
+				FCD0374C100AA863B3DC53AFDDE30F37 /* XCStackTrack.m in Sources */,
+				BEF1936F892A001EDC1A5259EDDF6477 /* XCTerminalViewController.m in Sources */,
+				17B1072E0C19C0F3D9D9B602743A97B9 /* XCUILagCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C86E3734A68F4035F504D1B8E0FF95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -915,30 +955,6 @@
 				C1B02744C373E1833AA14262E18E8812 /* FBAllocationTrackerNSZombieSupport.mm in Sources */,
 				BC35455B950589C6694A8391C7EC3E23 /* FBAllocationTrackerSummary.m in Sources */,
 				BC356CA7A2CDC4DB2A64BDEBCD058DB3 /* NSObject+FBAllocationTracker.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B172A7656EE47FBFC79EB59EED090253 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55CC1A48488D71D9D573541FFD9DF316 /* NSString+addition.m in Sources */,
-				3268122A1758B5C933770DA79F396EC1 /* TLMPerformanceLogger.m in Sources */,
-				9AF29A21D0C6238F4FD9F85A9C09D75D /* TLMToolKit-dummy.m in Sources */,
-				05E1A24D1847F1778866612B8BC9CF72 /* XCBackgroundTaskCheck.m in Sources */,
-				FA78F23F689AFCD71AC81E9DFCC0B090 /* XCDynamicLoader.m in Sources */,
-				C797CA7FE3ED3A684B27FEAC19688C4B /* XCHostUtil.m in Sources */,
-				1BD5E649175D0EAC6F87601ECB1CA69D /* XCMemoryMonitor.m in Sources */,
-				CBD3144D052D276CF5A0F54D10763C38 /* XCModuleManager.m in Sources */,
-				8473B8949EC025F0634721BB170C3C60 /* XCMonitor.m in Sources */,
-				D260AA8EC3EDF28BFEEEC5927857CB2B /* XCMonitorAlert.m in Sources */,
-				80F1F2A4979A8701E62E902103F8B5EA /* XCMonitorConfig.m in Sources */,
-				ABFE37346D1DB41DFE3A22358278D2C8 /* XCMonitorDynamicLoader.m in Sources */,
-				A21EADB3AAE9CA3562E94B6EFB6F6D48 /* XCMonitorLog.m in Sources */,
-				28C7331907594D49639A0BB4F739F7BF /* XCMonitorReport.m in Sources */,
-				9830B93F37D0E4AB22B4F317252F0E9F /* XCMonitorUtil.m in Sources */,
-				FB87F44FC183166BAB2CB3EED2774133 /* XCStackTrack.m in Sources */,
-				A2F2BD8F8462CECAB0AF476F5A49E132 /* XCUILagCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,7 +1155,7 @@
 		};
 		2905EEC8890ACD6E0988BE1A20F257A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DBF8743FCE0C2236F1CDE680E41E0B5 /* TLMToolKit.xcconfig */;
+			baseConfigurationReference = 9BDF1B723CF43D16C54985A6DC43B52F /* TLMToolKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1241,7 +1257,7 @@
 		};
 		458944B8EE0487A5A4F509ED6ABF9BBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DBF8743FCE0C2236F1CDE680E41E0B5 /* TLMToolKit.xcconfig */;
+			baseConfigurationReference = 9BDF1B723CF43D16C54985A6DC43B52F /* TLMToolKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

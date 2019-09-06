@@ -25,6 +25,7 @@ RAM_FUNCTION_EXPORT(XCMonitor)() {
 
 @property (nonatomic, copy) NSString *stackTrack;
 @property (nonatomic, copy) NSString *stackTrackFileName;
+- (IBAction)dddd:(id)sender;
 
 @end
 

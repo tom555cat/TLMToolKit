@@ -11,6 +11,7 @@
 #import "XCStackTrack.h"
 #import <FBAllocationTracker/FBAllocationTracker.h>
 #import "TLMUILagViewController.h"
+#import "XCMonitorSettingViewController.h"
 
 @interface TLMViewController ()
 
@@ -34,9 +35,9 @@
 //    }
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        for (NSInteger i = 0; i < 1000000; i++) {
-            NSLog(@"123");
-        }
+//        for (NSInteger i = 0; i < 1000000; i++) {
+//            NSLog(@"123");
+//        }
     });
     
     NSLog(@"%@", [self memorySummary]);
@@ -45,6 +46,11 @@
 
 - (IBAction)btnClicked:(id)sender {
     TLMUILagViewController *vc = [[TLMUILagViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)gotoMonitorSetting:(id)sender {
+    XCMonitorSettingViewController *vc = [[XCMonitorSettingViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

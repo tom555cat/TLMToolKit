@@ -45,9 +45,9 @@
     [cell configImage1:image];
     [cell configImage2:image];
     [cell configImage3:image];
-    for (NSInteger i = 0; i < 10000; i++) {
-        NSLog(@"wait");
-    }
+//    for (NSInteger i = 0; i < 10000; i++) {
+//        NSLog(@"wait");
+//    }
     return cell;
 }
 

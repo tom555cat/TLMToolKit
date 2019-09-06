@@ -10,6 +10,7 @@
 #import "XCMonitorHeader.h"
 #import "XCMonitorDataAdapter.h"
 #import "XCMonitor.h"
+#import "XCMonitorLog.h"
 
 @implementation XCMonitorReport
 
@@ -41,12 +42,39 @@
             NSDictionary *logMsg = [dataAdapter report];
             NSString *name = logMsg[XCMonitorReportNameKey];
             NSString *content = logMsg[XCMonitorReportContentKey];
-            [self uploadStackTrack:content traceName:name];
+            [self uploadStackTrack:content traceName:name withCompletion:^(NSError *error) {
+                if (error) {
+                    NSLog(@"主动上传日志遇到错误，中断上传!");
+                    [[XCMonitorLog sharedLogger] storeToDiskWithMessage:content fileName:name];
+                    return;
+                } else {
+                    NSLog(@"上传日志成功");
+                }
+            }];
         }
     }
 }
 
-- (void)uploadStackTrack:(NSString *)traceContent traceName:(NSString *)traceName {
+- (void)uploadLocalLogFiles {
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSArray<NSString *> *filePaths = [[NSFileManager defaultManager] subpathsAtPath:[[XCMonitorLog sharedLogger] diskPath]];
+        for (NSString *fileName in filePaths) {
+            NSString *fullName = [[[XCMonitorLog sharedLogger] diskPath] stringByAppendingPathComponent:fileName];
+            NSString *content = [NSString stringWithContentsOfFile:fullName encoding:NSUTF8StringEncoding error:nil];
+            [self uploadStackTrack:content traceName:fileName withCompletion:^(NSError *error) {
+                if (error) {
+                    NSLog(@"主动上传日志遇到错误，中断上传!");
+                    return;
+                } else {
+                    NSLog(@"上传日志成功");
+                    [[NSFileManager defaultManager] removeItemAtPath:fullName error:nil];
+                }
+            }];
+        }
+    });
+}
+
+- (void)uploadStackTrack:(NSString *)traceContent traceName:(NSString *)traceName withCompletion:(nullable void (^)(NSError *error))completion {
     if (traceContent.length <= 0 || traceName.length <= 0) {
         return;
     }
@@ -61,12 +89,11 @@
                                                    uploadProgress:nil
                                                  downloadProgress:nil
                                                 completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
-                                                    if (error) {
-                                                        NSLog(@"Error: %@", error);
-                                                    } else {
-                                                        NSLog(@"%@ %@", response, responseObject);
-                                                    }
-                                                }];
+        if (completion) {
+            completion(error);
+        }
+    }];
+    
     [dataTask resume];
 }
 

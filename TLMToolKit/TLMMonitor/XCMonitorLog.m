@@ -46,7 +46,7 @@
             NSDictionary *logMsg = [dataAdapter log];
             NSString *name = logMsg[XCMonitorLogNameKey];
             NSString *content = logMsg[XCMonitorLogContentKey];
-            [self storeToDiskForStackFrames:content fileName:name];
+            [self storeToDiskWithMessage:content fileName:name];
         }
     }
 }
@@ -68,9 +68,9 @@
     return logPath;
 }
 
-- (void)storeToDiskForStackFrames:(NSString *)stackFrames fileName:(NSString *)fileName {
+- (void)storeToDiskWithMessage:(NSString *)message fileName:(NSString *)fileName {
     NSString *storePath = [self makeStorePathWithFileName:fileName];
-    [stackFrames writeToFile:storePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    [message writeToFile:storePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 
